@@ -28,7 +28,7 @@ jobs:
             {
               "id": "local",
               "mirrorOf": "*",
-              "url": "https://160d-185-15-74-210.eu.ngrok.io/repository/maven-public/"
+              "url": "https://ed2c-185-15-74-210.eu.ngrok.io/repository/maven-public/"
             }
           ]
     - name: Build with Maven
