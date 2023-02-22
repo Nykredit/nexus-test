@@ -47,7 +47,7 @@ jobs:
             {
               "id": "nykredit",
               "mirrorOf": "*",
-              "url": "http://maven.nykreditnet.net"
+              "url": "https://maven.tools.nykredit.it"
             }
           ]
         servers: >
