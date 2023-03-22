@@ -19,7 +19,7 @@ jobs:
       with:
         java-version: '8'
         distribution: 'temurin'
-        cache: maven
+        # cache: maven
     - name: maven-settings-xml-action
       uses: whelk-io/maven-settings-xml-action@v20
       with:
