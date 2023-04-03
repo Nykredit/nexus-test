@@ -1,0 +1,930 @@
+2023-03-24T11:01:32.2608053Z [36;1mmvn -B package --file pom.xml[0m
+2023-03-24T11:01:32.2660004Z shell: /usr/bin/bash -e {0}
+2023-03-24T11:01:32.2660276Z env:
+2023-03-24T11:01:32.2660581Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/8.0.362-9/x64
+2023-03-24T11:01:32.2660954Z   JAVA_HOME_8_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/8.0.362-9/x64
+2023-03-24T11:01:32.2661255Z ##[endgroup]
+2023-03-24T11:01:35.8265349Z [INFO] Scanning for projects...
+2023-03-24T11:01:36.4170896Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/junit/junit-bom/5.3.2/junit-bom-5.3.2.pom
+2023-03-24T11:01:38.9319957Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/junit/junit-bom/5.3.2/junit-bom-5.3.2.pom (4.1 kB at 1.6 kB/s)
+2023-03-24T11:01:38.9494409Z [INFO] 
+2023-03-24T11:01:38.9495765Z [INFO] -------------------------< dk.hindsholm:bank >--------------------------
+2023-03-24T11:01:38.9496659Z [INFO] Building bank 1.0-SNAPSHOT
+2023-03-24T11:01:38.9499769Z [INFO] --------------------------------[ war ]---------------------------------
+2023-03-24T11:01:38.9528283Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/sebastian-daschner/jaxrs-analyzer-maven-plugin/0.17/jaxrs-analyzer-maven-plugin-0.17.pom
+2023-03-24T11:01:40.6639083Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/sebastian-daschner/jaxrs-analyzer-maven-plugin/0.17/jaxrs-analyzer-maven-plugin-0.17.pom (5.8 kB at 3.4 kB/s)
+2023-03-24T11:01:40.6741519Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/sebastian-daschner/jaxrs-analyzer-maven-plugin/0.17/jaxrs-analyzer-maven-plugin-0.17.jar
+2023-03-24T11:01:42.4256509Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/sebastian-daschner/jaxrs-analyzer-maven-plugin/0.17/jaxrs-analyzer-maven-plugin-0.17.jar (13 kB at 7.5 kB/s)
+2023-03-24T11:01:42.4326622Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-failsafe-plugin/2.22.0/maven-failsafe-plugin-2.22.0.pom
+2023-03-24T11:01:59.5815796Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-failsafe-plugin/2.22.0/maven-failsafe-plugin-2.22.0.pom (12 kB at 690 B/s)
+2023-03-24T11:01:59.5896100Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire/2.22.0/surefire-2.22.0.pom
+2023-03-24T11:02:01.2973946Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire/2.22.0/surefire-2.22.0.pom (27 kB at 16 kB/s)
+2023-03-24T11:02:01.3020532Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/31/maven-parent-31.pom
+2023-03-24T11:02:02.9987126Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/31/maven-parent-31.pom (43 kB at 26 kB/s)
+2023-03-24T11:02:03.0048924Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/apache/19/apache-19.pom
+2023-03-24T11:02:04.7040335Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/apache/19/apache-19.pom (15 kB at 9.1 kB/s)
+2023-03-24T11:02:04.7124439Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-failsafe-plugin/2.22.0/maven-failsafe-plugin-2.22.0.jar
+2023-03-24T11:02:22.4838039Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-failsafe-plugin/2.22.0/maven-failsafe-plugin-2.22.0.jar (294 kB at 17 kB/s)
+2023-03-24T11:02:22.5003061Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+2023-03-24T11:02:24.2003269Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom (8.1 kB at 4.8 kB/s)
+2023-03-24T11:02:24.2026287Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+2023-03-24T11:02:25.9094008Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom (9.2 kB at 5.4 kB/s)
+2023-03-24T11:02:25.9158801Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/22/maven-parent-22.pom
+2023-03-24T11:02:27.6232603Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/22/maven-parent-22.pom (30 kB at 17 kB/s)
+2023-03-24T11:02:27.6263975Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/apache/11/apache-11.pom
+2023-03-24T11:02:44.7018647Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/apache/11/apache-11.pom (15 kB at 867 B/s)
+2023-03-24T11:02:44.7089567Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+2023-03-24T11:02:46.5633699Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar (30 kB at 16 kB/s)
+2023-03-24T11:02:46.5707731Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+2023-03-24T11:02:48.2663947Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom (10 kB at 6.0 kB/s)
+2023-03-24T11:02:48.2686877Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+2023-03-24T11:02:49.9821860Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom (11 kB at 6.3 kB/s)
+2023-03-24T11:02:49.9847175Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/23/maven-parent-23.pom
+2023-03-24T11:03:07.2290505Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/23/maven-parent-23.pom (33 kB at 1.9 kB/s)
+2023-03-24T11:03:07.2322002Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/apache/13/apache-13.pom
+2023-03-24T11:03:08.9314761Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/apache/13/apache-13.pom (14 kB at 8.2 kB/s)
+2023-03-24T11:03:08.9364201Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+2023-03-24T11:03:10.7547566Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar (43 kB at 24 kB/s)
+2023-03-24T11:03:10.7614238Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-surefire-plugin/2.22.0/maven-surefire-plugin-2.22.0.pom
+2023-03-24T11:03:12.4581251Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-surefire-plugin/2.22.0/maven-surefire-plugin-2.22.0.pom (5.0 kB at 3.0 kB/s)
+2023-03-24T11:03:12.4634899Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-surefire-plugin/2.22.0/maven-surefire-plugin-2.22.0.jar
+2023-03-24T11:03:29.8768295Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-surefire-plugin/2.22.0/maven-surefire-plugin-2.22.0.jar (41 kB at 2.3 kB/s)
+2023-03-24T11:03:29.8811806Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.pom
+2023-03-24T11:03:31.5696513Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.pom (6.5 kB at 3.8 kB/s)
+2023-03-24T11:03:31.5718676Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+2023-03-24T11:03:33.2808538Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 kB at 7.6 kB/s)
+2023-03-24T11:03:33.2833068Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/21/maven-parent-21.pom
+2023-03-24T11:03:34.9715344Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/21/maven-parent-21.pom (26 kB at 16 kB/s)
+2023-03-24T11:03:34.9743343Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/apache/10/apache-10.pom
+2023-03-24T11:03:52.3513947Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/apache/10/apache-10.pom (15 kB at 851 B/s)
+2023-03-24T11:03:52.3580114Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.jar
+2023-03-24T11:03:54.4520053Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.jar (79 kB at 38 kB/s)
+2023-03-24T11:03:54.4634429Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/javax/javaee-api/7.0/javaee-api-7.0.pom
+2023-03-24T11:03:56.1874885Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/javax/javaee-api/7.0/javaee-api-7.0.pom (8.6 kB at 5.0 kB/s)
+2023-03-24T11:03:56.1907949Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/net/java/jvnet-parent/3/jvnet-parent-3.pom
+2023-03-24T11:03:57.8889454Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/net/java/jvnet-parent/3/jvnet-parent-3.pom (4.8 kB at 2.8 kB/s)
+2023-03-24T11:03:57.8936463Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.pom
+2023-03-24T11:04:15.0602254Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.pom (4.3 kB at 250 B/s)
+2023-03-24T11:04:15.0624652Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/sun/mail/all/1.5.0/all-1.5.0.pom
+2023-03-24T11:04:16.7735734Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/sun/mail/all/1.5.0/all-1.5.0.pom (19 kB at 11 kB/s)
+2023-03-24T11:04:16.7765682Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/net/java/jvnet-parent/1/jvnet-parent-1.pom
+2023-03-24T11:04:18.4769783Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/net/java/jvnet-parent/1/jvnet-parent-1.pom (4.7 kB at 2.8 kB/s)
+2023-03-24T11:04:18.4815801Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/javax/activation/activation/1.1/activation-1.1.pom
+2023-03-24T11:04:20.1595238Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/javax/activation/activation/1.1/activation-1.1.pom (1.1 kB at 630 B/s)
+2023-03-24T11:04:20.1624471Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2.pom
+2023-03-24T11:04:37.2638763Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2.pom (2.4 kB at 138 B/s)
+2023-03-24T11:04:37.2674924Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.pom
+2023-03-24T11:04:39.0282302Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.pom (1.2 kB at 663 B/s)
+2023-03-24T11:04:39.0307199Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.pom
+2023-03-24T11:04:40.7351753Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.pom (1.7 kB at 987 B/s)
+2023-03-24T11:04:40.7383369Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.pom
+2023-03-24T11:04:42.4305115Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.pom (2.0 kB at 1.2 kB/s)
+2023-03-24T11:04:42.4331921Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/junit/jupiter/junit-jupiter-engine/5.3.2/junit-jupiter-engine-5.3.2.pom
+2023-03-24T11:04:59.5918379Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/junit/jupiter/junit-jupiter-engine/5.3.2/junit-jupiter-engine-5.3.2.pom (2.4 kB at 139 B/s)
+2023-03-24T11:04:59.5945124Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-engine/1.3.2/junit-platform-engine-1.3.2.pom
+2023-03-24T11:05:01.3024015Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-engine/1.3.2/junit-platform-engine-1.3.2.pom (2.4 kB at 1.4 kB/s)
+2023-03-24T11:05:01.3055460Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/junit/jupiter/junit-jupiter-params/5.3.2/junit-jupiter-params-5.3.2.pom
+2023-03-24T11:05:02.9955166Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/junit/jupiter/junit-jupiter-params/5.3.2/junit-jupiter-params-5.3.2.pom (2.2 kB at 1.3 kB/s)
+2023-03-24T11:05:02.9995348Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.pom
+2023-03-24T11:05:04.6937607Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.pom (18 kB at 10 kB/s)
+2023-03-24T11:05:04.6966975Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.pom
+2023-03-24T11:05:21.9258923Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.pom (10 kB at 593 B/s)
+2023-03-24T11:05:21.9291913Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/net/bytebuddy/byte-buddy-parent/1.9.3/byte-buddy-parent-1.9.3.pom
+2023-03-24T11:05:23.6398627Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/net/bytebuddy/byte-buddy-parent/1.9.3/byte-buddy-parent-1.9.3.pom (34 kB at 20 kB/s)
+2023-03-24T11:05:23.6438476Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3.pom
+2023-03-24T11:05:25.3512966Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3.pom (6.0 kB at 3.5 kB/s)
+2023-03-24T11:05:25.3564616Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/objenesis/objenesis/2.6/objenesis-2.6.pom
+2023-03-24T11:05:42.5461047Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/objenesis/objenesis/2.6/objenesis-2.6.pom (2.8 kB at 161 B/s)
+2023-03-24T11:05:42.5468136Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.pom
+2023-03-24T11:05:44.2349249Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.pom (17 kB at 9.8 kB/s)
+2023-03-24T11:05:44.2389803Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/mockito/mockito-junit-jupiter/2.23.4/mockito-junit-jupiter-2.23.4.pom
+2023-03-24T11:05:45.9527862Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/mockito/mockito-junit-jupiter/2.23.4/mockito-junit-jupiter-2.23.4.pom (17 kB at 10 kB/s)
+2023-03-24T11:05:45.9559429Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/testcontainers/junit-jupiter/1.10.3/junit-jupiter-1.10.3.pom
+2023-03-24T11:05:47.6240938Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/testcontainers/junit-jupiter/1.10.3/junit-jupiter-1.10.3.pom (1.7 kB at 1.0 kB/s)
+2023-03-24T11:05:47.6266299Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/testcontainers/testcontainers/1.10.3/testcontainers-1.10.3.pom
+2023-03-24T11:06:04.9311313Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/testcontainers/testcontainers/1.10.3/testcontainers-1.10.3.pom (3.5 kB at 199 B/s)
+2023-03-24T11:06:04.9338549Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/junit/junit/4.12/junit-4.12.pom
+2023-03-24T11:06:06.6309508Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/junit/junit/4.12/junit-4.12.pom (24 kB at 14 kB/s)
+2023-03-24T11:06:06.6351979Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+2023-03-24T11:06:08.3316941Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom (766 B at 451 B/s)
+2023-03-24T11:06:08.3345842Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+2023-03-24T11:06:10.0122628Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom (2.0 kB at 1.2 kB/s)
+2023-03-24T11:06:10.0156024Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom
+2023-03-24T11:06:27.1867139Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom (3.8 kB at 223 B/s)
+2023-03-24T11:06:27.1892831Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom
+2023-03-24T11:06:28.8880676Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom (14 kB at 8.0 kB/s)
+2023-03-24T11:06:28.8919293Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/jetbrains/annotations/15.0/annotations-15.0.pom
+2023-03-24T11:06:30.5904704Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/jetbrains/annotations/15.0/annotations-15.0.pom (5.5 kB at 3.2 kB/s)
+2023-03-24T11:06:30.5935748Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.pom
+2023-03-24T11:06:47.8387149Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.pom (14 kB at 799 B/s)
+2023-03-24T11:06:47.8419530Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/commons/commons-compress/1.18/commons-compress-1.18.pom
+2023-03-24T11:06:49.5799638Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/commons/commons-compress/1.18/commons-compress-1.18.pom (18 kB at 10 kB/s)
+2023-03-24T11:06:49.5854621Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/commons/commons-parent/47/commons-parent-47.pom
+2023-03-24T11:06:51.2739438Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/commons/commons-parent/47/commons-parent-47.pom (78 kB at 46 kB/s)
+2023-03-24T11:06:51.2819036Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.pom
+2023-03-24T11:06:52.9948101Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.pom (23 kB at 13 kB/s)
+2023-03-24T11:06:52.9975150Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/javax/xml/bind/jaxb-api-parent/2.3.0/jaxb-api-parent-2.3.0.pom
+2023-03-24T11:07:10.1887686Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/javax/xml/bind/jaxb-api-parent/2.3.0/jaxb-api-parent-2.3.0.pom (5.6 kB at 328 B/s)
+2023-03-24T11:07:10.1905588Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/net/java/jvnet-parent/5/jvnet-parent-5.pom
+2023-03-24T11:07:11.8845468Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/net/java/jvnet-parent/5/jvnet-parent-5.pom (8.9 kB at 5.2 kB/s)
+2023-03-24T11:07:11.8896914Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/rnorth/duct-tape/duct-tape/1.0.7/duct-tape-1.0.7.pom
+2023-03-24T11:07:13.5894547Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/rnorth/duct-tape/duct-tape/1.0.7/duct-tape-1.0.7.pom (6.0 kB at 3.5 kB/s)
+2023-03-24T11:07:13.5927382Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/rnorth/visible-assertions/visible-assertions/2.1.1/visible-assertions-2.1.1.pom
+2023-03-24T11:07:15.3175112Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/rnorth/visible-assertions/visible-assertions/2.1.1/visible-assertions-2.1.1.pom (6.6 kB at 3.8 kB/s)
+2023-03-24T11:07:15.3202564Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/net/java/dev/jna/jna/4.5.1/jna-4.5.1.pom
+2023-03-24T11:07:32.4584467Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/net/java/dev/jna/jna/4.5.1/jna-4.5.1.pom (1.6 kB at 92 B/s)
+2023-03-24T11:07:32.4628831Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/rnorth/tcp-unix-socket-proxy/1.0.2/tcp-unix-socket-proxy-1.0.2.pom
+2023-03-24T11:07:34.1682336Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/rnorth/tcp-unix-socket-proxy/1.0.2/tcp-unix-socket-proxy-1.0.2.pom (4.7 kB at 2.8 kB/s)
+2023-03-24T11:07:34.1717152Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/kohlschutter/junixsocket/junixsocket-native-common/2.0.4/junixsocket-native-common-2.0.4.pom
+2023-03-24T11:07:35.8711063Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/kohlschutter/junixsocket/junixsocket-native-common/2.0.4/junixsocket-native-common-2.0.4.pom (3.8 kB at 2.2 kB/s)
+2023-03-24T11:07:35.8734214Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/kohlschutter/junixsocket/junixsocket-parent/2.0.4/junixsocket-parent-2.0.4.pom
+2023-03-24T11:07:37.5644322Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/kohlschutter/junixsocket/junixsocket-parent/2.0.4/junixsocket-parent-2.0.4.pom (3.9 kB at 2.3 kB/s)
+2023-03-24T11:07:37.5662252Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/kohlschutter/kohlschutter-parent/1.1/kohlschutter-parent-1.1.pom
+2023-03-24T11:07:54.7518838Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/kohlschutter/kohlschutter-parent/1.1/kohlschutter-parent-1.1.pom (18 kB at 1.1 kB/s)
+2023-03-24T11:07:54.7555426Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/kohlschutter/junixsocket/junixsocket-common/2.0.4/junixsocket-common-2.0.4.pom
+2023-03-24T11:07:56.4403478Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/kohlschutter/junixsocket/junixsocket-common/2.0.4/junixsocket-common-2.0.4.pom (1.4 kB at 835 B/s)
+2023-03-24T11:07:56.4444902Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/scijava/native-lib-loader/2.0.2/native-lib-loader-2.0.2.pom
+2023-03-24T11:07:58.1423010Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/scijava/native-lib-loader/2.0.2/native-lib-loader-2.0.2.pom (2.6 kB at 1.5 kB/s)
+2023-03-24T11:07:58.1436111Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/scijava/pom-scijava/3.1/pom-scijava-3.1.pom
+2023-03-24T11:08:15.3776005Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/scijava/pom-scijava/3.1/pom-scijava-3.1.pom (41 kB at 2.4 kB/s)
+2023-03-24T11:08:15.3817581Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.pom
+2023-03-24T11:08:17.0642734Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.pom (2.8 kB at 1.6 kB/s)
+2023-03-24T11:08:17.0663997Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-parent/1.7.21/slf4j-parent-1.7.21.pom
+2023-03-24T11:08:18.7659922Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-parent/1.7.21/slf4j-parent-1.7.21.pom (14 kB at 7.9 kB/s)
+2023-03-24T11:08:18.7686688Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.pom
+2023-03-24T11:08:20.4597153Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.pom (1.8 kB at 1.1 kB/s)
+2023-03-24T11:08:20.4621271Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/javax.json/1.1.2/javax.json-1.1.2.pom
+2023-03-24T11:08:37.7594020Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/javax.json/1.1.2/javax.json-1.1.2.pom (7.8 kB at 449 B/s)
+2023-03-24T11:08:37.7615246Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/json/1.1.2/json-1.1.2.pom
+2023-03-24T11:08:40.4712243Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/json/1.1.2/json-1.1.2.pom (18 kB at 6.8 kB/s)
+2023-03-24T11:08:40.4777744Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/javax/json/javax.json-api/1.1.2/javax.json-api-1.1.2.pom
+2023-03-24T11:08:42.1732801Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/javax/json/javax.json-api/1.1.2/javax.json-api-1.1.2.pom (6.7 kB at 3.9 kB/s)
+2023-03-24T11:08:42.1766717Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/core/jersey-client/2.26/jersey-client-2.26.pom
+2023-03-24T11:08:59.5209944Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/core/jersey-client/2.26/jersey-client-2.26.pom (7.4 kB at 426 B/s)
+2023-03-24T11:08:59.5230997Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/project/2.26/project-2.26.pom
+2023-03-24T11:09:01.2235127Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/project/2.26/project-2.26.pom (86 kB at 50 kB/s)
+2023-03-24T11:09:01.2268695Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/net/java/jvnet-parent/4/jvnet-parent-4.pom
+2023-03-24T11:09:02.9006033Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/net/java/jvnet-parent/4/jvnet-parent-4.pom (7.8 kB at 4.6 kB/s)
+2023-03-24T11:09:02.9037928Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/hk2-bom/2.5.0-b42/hk2-bom-2.5.0-b42.pom
+2023-03-24T11:09:04.5997420Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/hk2-bom/2.5.0-b42/hk2-bom-2.5.0-b42.pom (16 kB at 9.6 kB/s)
+2023-03-24T11:09:04.6054455Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.pom
+2023-03-24T11:09:21.7057795Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.pom (30 kB at 1.8 kB/s)
+2023-03-24T11:09:21.7093539Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/core/jersey-common/2.26/jersey-common-2.26.pom
+2023-03-24T11:09:23.4146658Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/core/jersey-common/2.26/jersey-common-2.26.pom (9.8 kB at 5.8 kB/s)
+2023-03-24T11:09:23.4190593Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom
+2023-03-24T11:09:25.1036945Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom (13 kB at 8.0 kB/s)
+2023-03-24T11:09:25.1073836Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/external/javax.inject/2.5.0-b42/javax.inject-2.5.0-b42.pom
+2023-03-24T11:09:26.8143037Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/external/javax.inject/2.5.0-b42/javax.inject-2.5.0-b42.pom (6.5 kB at 3.8 kB/s)
+2023-03-24T11:09:26.8161434Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/external/2.5.0-b42/external-2.5.0-b42.pom
+2023-03-24T11:09:44.0359442Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/external/2.5.0-b42/external-2.5.0-b42.pom (2.8 kB at 164 B/s)
+2023-03-24T11:09:44.0380969Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/hk2-parent/2.5.0-b42/hk2-parent-2.5.0-b42.pom
+2023-03-24T11:09:45.7339478Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/hk2-parent/2.5.0-b42/hk2-parent-2.5.0-b42.pom (42 kB at 25 kB/s)
+2023-03-24T11:09:45.7414345Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.pom
+2023-03-24T11:09:47.4497277Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.pom (6.2 kB at 3.6 kB/s)
+2023-03-24T11:09:47.4521030Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/pom/8/pom-8.pom
+2023-03-24T11:09:49.1660505Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/pom/8/pom-8.pom (11 kB at 6.2 kB/s)
+2023-03-24T11:09:49.1683560Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/inject/jersey-hk2/2.26/jersey-hk2-2.26.pom
+2023-03-24T11:10:06.2848485Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/inject/jersey-hk2/2.26/jersey-hk2-2.26.pom (5.2 kB at 306 B/s)
+2023-03-24T11:10:06.2869553Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/inject/project/2.26/project-2.26.pom
+2023-03-24T11:10:07.9753781Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/inject/project/2.26/project-2.26.pom (2.7 kB at 1.6 kB/s)
+2023-03-24T11:10:07.9796495Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/hk2-locator/2.5.0-b42/hk2-locator-2.5.0-b42.pom
+2023-03-24T11:10:09.7192040Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/hk2-locator/2.5.0-b42/hk2-locator-2.5.0-b42.pom (7.9 kB at 4.5 kB/s)
+2023-03-24T11:10:09.7231770Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/external/aopalliance-repackaged/2.5.0-b42/aopalliance-repackaged-2.5.0-b42.pom
+2023-03-24T11:10:11.4105259Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/external/aopalliance-repackaged/2.5.0-b42/aopalliance-repackaged-2.5.0-b42.pom (6.8 kB at 4.0 kB/s)
+2023-03-24T11:10:11.4149458Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/hk2-api/2.5.0-b42/hk2-api-2.5.0-b42.pom
+2023-03-24T11:10:28.5757281Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/hk2-api/2.5.0-b42/hk2-api-2.5.0-b42.pom (4.6 kB at 270 B/s)
+2023-03-24T11:10:28.5788169Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/javax/inject/javax.inject/1/javax.inject-1.pom
+2023-03-24T11:10:30.2795934Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/javax/inject/javax.inject/1/javax.inject-1.pom (612 B at 359 B/s)
+2023-03-24T11:10:30.2816916Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/hk2-utils/2.5.0-b42/hk2-utils-2.5.0-b42.pom
+2023-03-24T11:10:32.0032559Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/hk2-utils/2.5.0-b42/hk2-utils-2.5.0-b42.pom (6.9 kB at 4.0 kB/s)
+2023-03-24T11:10:32.0073254Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/javassist/javassist/3.22.0-CR2/javassist-3.22.0-CR2.pom
+2023-03-24T11:10:33.6942472Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/javassist/javassist/3.22.0-CR2/javassist-3.22.0-CR2.pom (10 kB at 6.0 kB/s)
+2023-03-24T11:10:33.6973882Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/media/jersey-media-json-jackson/2.26/jersey-media-json-jackson-2.26.pom
+2023-03-24T11:10:50.8255002Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/media/jersey-media-json-jackson/2.26/jersey-media-json-jackson-2.26.pom (5.1 kB at 299 B/s)
+2023-03-24T11:10:50.8256025Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/media/project/2.26/project-2.26.pom
+2023-03-24T11:10:52.5069155Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/media/project/2.26/project-2.26.pom (3.3 kB at 1.9 kB/s)
+2023-03-24T11:10:52.5106967Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/ext/jersey-entity-filtering/2.26/jersey-entity-filtering-2.26.pom
+2023-03-24T11:10:54.1973448Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/ext/jersey-entity-filtering/2.26/jersey-entity-filtering-2.26.pom (4.5 kB at 2.7 kB/s)
+2023-03-24T11:10:54.1990834Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/ext/project/2.26/project-2.26.pom
+2023-03-24T11:10:55.8594805Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/ext/project/2.26/project-2.26.pom (4.0 kB at 2.4 kB/s)
+2023-03-24T11:10:55.8633314Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.pom
+2023-03-24T11:11:13.1025100Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.pom (1.8 kB at 107 B/s)
+2023-03-24T11:11:13.1040890Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom
+2023-03-24T11:11:14.7919977Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom (8.0 kB at 4.7 kB/s)
+2023-03-24T11:11:14.7947012Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/fasterxml/oss-parent/27/oss-parent-27.pom
+2023-03-24T11:11:16.4983022Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/fasterxml/oss-parent/27/oss-parent-27.pom (20 kB at 12 kB/s)
+2023-03-24T11:11:16.5012631Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.pom
+2023-03-24T11:11:18.1817075Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.pom (5.4 kB at 3.2 kB/s)
+2023-03-24T11:11:18.1850471Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.pom
+2023-03-24T11:11:35.4232663Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.pom (1.8 kB at 107 B/s)
+2023-03-24T11:11:35.4267401Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.pom
+2023-03-24T11:11:37.1106353Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.pom (5.4 kB at 3.2 kB/s)
+2023-03-24T11:11:37.1148235Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.4/jackson-module-jaxb-annotations-2.8.4.pom
+2023-03-24T11:11:39.0174954Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.4/jackson-module-jaxb-annotations-2.8.4.pom (3.6 kB at 1.9 kB/s)
+2023-03-24T11:11:39.0213788Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-jdk14/1.7.25/slf4j-jdk14-1.7.25.pom
+2023-03-24T11:11:56.3124898Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-jdk14/1.7.25/slf4j-jdk14-1.7.25.pom (1.0 kB at 58 B/s)
+2023-03-24T11:11:56.3362976Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/javax/javaee-api/7.0/javaee-api-7.0.jar
+2023-03-24T11:11:56.3375946Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2.jar
+2023-03-24T11:11:56.3376975Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/javax/activation/activation/1.1/activation-1.1.jar
+2023-03-24T11:11:56.3377933Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar
+2023-03-24T11:11:56.3392584Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar
+2023-03-24T11:11:58.1056719Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar (2.2 kB at 1.2 kB/s)
+2023-03-24T11:11:58.1057867Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar
+2023-03-24T11:11:58.3979176Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/javax/activation/activation/1.1/activation-1.1.jar (63 kB at 31 kB/s)
+2023-03-24T11:11:58.3980577Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.jar
+2023-03-24T11:11:58.4130451Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2.jar (115 kB at 55 kB/s)
+2023-03-24T11:11:58.4131692Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/junit/jupiter/junit-jupiter-engine/5.3.2/junit-jupiter-engine-5.3.2.jar
+2023-03-24T11:11:58.8827226Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar (522 kB at 205 kB/s)
+2023-03-24T11:11:58.8828737Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-engine/1.3.2/junit-platform-engine-1.3.2.jar
+2023-03-24T11:11:59.2300735Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar (7.1 kB at 2.5 kB/s)
+2023-03-24T11:11:59.2301667Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/junit/jupiter/junit-jupiter-params/5.3.2/junit-jupiter-params-5.3.2.jar
+2023-03-24T11:11:59.8432505Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.jar (78 kB at 22 kB/s)
+2023-03-24T11:11:59.8436906Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar
+2023-03-24T11:11:59.9766704Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/junit/jupiter/junit-jupiter-engine/5.3.2/junit-jupiter-engine-5.3.2.jar (150 kB at 41 kB/s)
+2023-03-24T11:11:59.9770205Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.jar
+2023-03-24T11:12:00.3634020Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/javax/javaee-api/7.0/javaee-api-7.0.jar (1.9 MB at 479 kB/s)
+2023-03-24T11:12:00.3636748Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3.jar
+2023-03-24T11:12:00.4100730Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-engine/1.3.2/junit-platform-engine-1.3.2.jar (138 kB at 34 kB/s)
+2023-03-24T11:12:00.4101807Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/objenesis/objenesis/2.6/objenesis-2.6.jar
+2023-03-24T11:12:01.2060091Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/junit/jupiter/junit-jupiter-params/5.3.2/junit-jupiter-params-5.3.2.jar (501 kB at 103 kB/s)
+2023-03-24T11:12:01.2061466Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/mockito/mockito-junit-jupiter/2.23.4/mockito-junit-jupiter-2.23.4.jar
+2023-03-24T11:12:01.6334832Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3.jar (43 kB at 8.2 kB/s)
+2023-03-24T11:12:01.6335785Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/testcontainers/junit-jupiter/1.10.3/junit-jupiter-1.10.3.jar
+2023-03-24T11:12:01.7934647Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar (565 kB at 104 kB/s)
+2023-03-24T11:12:01.7935944Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/testcontainers/testcontainers/1.10.3/testcontainers-1.10.3.jar
+2023-03-24T11:12:01.8262294Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/objenesis/objenesis/2.6/objenesis-2.6.jar (56 kB at 10 kB/s)
+2023-03-24T11:12:01.8271396Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/junit/junit/4.12/junit-4.12.jar
+2023-03-24T11:12:02.3487261Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/mockito/mockito-junit-jupiter/2.23.4/mockito-junit-jupiter-2.23.4.jar (4.7 kB at 774 B/s)
+2023-03-24T11:12:02.3494591Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2023-03-24T11:12:18.3325713Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/testcontainers/junit-jupiter/1.10.3/junit-jupiter-1.10.3.jar (6.7 kB at 306 B/s)
+2023-03-24T11:12:18.3327199Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/jetbrains/annotations/15.0/annotations-15.0.jar
+2023-03-24T11:12:19.0897918Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/junit/junit/4.12/junit-4.12.jar (315 kB at 14 kB/s)
+2023-03-24T11:12:19.0899312Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+2023-03-24T11:12:19.0986717Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar (45 kB at 2.0 kB/s)
+2023-03-24T11:12:19.0987914Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar
+2023-03-24T11:12:19.6081396Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/jetbrains/annotations/15.0/annotations-15.0.jar (19 kB at 799 B/s)
+2023-03-24T11:12:19.6082751Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar
+2023-03-24T11:12:20.1202121Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.jar (3.2 MB at 136 kB/s)
+2023-03-24T11:12:20.1203368Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/rnorth/duct-tape/duct-tape/1.0.7/duct-tape-1.0.7.jar
+2023-03-24T11:12:20.3688834Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar (27 kB at 1.1 kB/s)
+2023-03-24T11:12:20.3689868Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/rnorth/visible-assertions/visible-assertions/2.1.1/visible-assertions-2.1.1.jar
+2023-03-24T11:12:21.0327789Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/testcontainers/testcontainers/1.10.3/testcontainers-1.10.3.jar (17 MB at 695 kB/s)
+2023-03-24T11:12:21.0332017Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/net/java/dev/jna/jna/4.5.1/jna-4.5.1.jar
+2023-03-24T11:12:21.1310312Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar (126 kB at 5.1 kB/s)
+2023-03-24T11:12:21.1313062Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/rnorth/tcp-unix-socket-proxy/1.0.2/tcp-unix-socket-proxy-1.0.2.jar
+2023-03-24T11:12:21.4011661Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar (592 kB at 24 kB/s)
+2023-03-24T11:12:21.4013346Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/kohlschutter/junixsocket/junixsocket-native-common/2.0.4/junixsocket-native-common-2.0.4.jar
+2023-03-24T11:12:21.4048776Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/rnorth/duct-tape/duct-tape/1.0.7/duct-tape-1.0.7.jar (25 kB at 993 B/s)
+2023-03-24T11:12:21.4049544Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/scijava/native-lib-loader/2.0.2/native-lib-loader-2.0.2.jar
+2023-03-24T11:12:21.5001096Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/rnorth/visible-assertions/visible-assertions/2.1.1/visible-assertions-2.1.1.jar (12 kB at 460 B/s)
+2023-03-24T11:12:21.5002098Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/kohlschutter/junixsocket/junixsocket-common/2.0.4/junixsocket-common-2.0.4.jar
+2023-03-24T11:12:22.2603040Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/rnorth/tcp-unix-socket-proxy/1.0.2/tcp-unix-socket-proxy-1.0.2.jar (7.2 kB at 279 B/s)
+2023-03-24T11:12:22.2604251Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar
+2023-03-24T11:12:22.5522157Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/scijava/native-lib-loader/2.0.2/native-lib-loader-2.0.2.jar (17 kB at 650 B/s)
+2023-03-24T11:12:22.5523313Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/javax.json/1.1.2/javax.json-1.1.2.jar
+2023-03-24T11:12:22.7049904Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/kohlschutter/junixsocket/junixsocket-native-common/2.0.4/junixsocket-native-common-2.0.4.jar (28 kB at 1.1 kB/s)
+2023-03-24T11:12:22.7050856Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/javax/json/javax.json-api/1.1.2/javax.json-api-1.1.2.jar
+2023-03-24T11:12:22.7886905Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/kohlschutter/junixsocket/junixsocket-common/2.0.4/junixsocket-common-2.0.4.jar (18 kB at 688 B/s)
+2023-03-24T11:12:22.7888209Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/core/jersey-client/2.26/jersey-client-2.26.jar
+2023-03-24T11:12:23.8950942Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/net/java/dev/jna/jna/4.5.1/jna-4.5.1.jar (1.4 MB at 52 kB/s)
+2023-03-24T11:12:23.8952320Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar
+2023-03-24T11:12:23.9576839Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/javax/json/javax.json-api/1.1.2/javax.json-api-1.1.2.jar (31 kB at 1.1 kB/s)
+2023-03-24T11:12:23.9578188Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/core/jersey-common/2.26/jersey-common-2.26.jar
+2023-03-24T11:12:24.0616279Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/javax.json/1.1.2/javax.json-1.1.2.jar (101 kB at 3.6 kB/s)
+2023-03-24T11:12:24.0617121Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar
+2023-03-24T11:12:24.4314056Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/core/jersey-client/2.26/jersey-client-2.26.jar (181 kB at 6.5 kB/s)
+2023-03-24T11:12:24.4315365Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/external/javax.inject/2.5.0-b42/javax.inject-2.5.0-b42.jar
+2023-03-24T11:12:25.5792251Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/external/javax.inject/2.5.0-b42/javax.inject-2.5.0-b42.jar (6.0 kB at 203 B/s)
+2023-03-24T11:12:25.5793500Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/inject/jersey-hk2/2.26/jersey-hk2-2.26.jar
+2023-03-24T11:12:40.8495808Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar (128 kB at 2.9 kB/s)
+2023-03-24T11:12:40.8497325Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/hk2-locator/2.5.0-b42/hk2-locator-2.5.0-b42.jar
+2023-03-24T11:12:40.8503817Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar (20 kB at 454 B/s)
+2023-03-24T11:12:40.8514609Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/external/aopalliance-repackaged/2.5.0-b42/aopalliance-repackaged-2.5.0-b42.jar
+2023-03-24T11:12:41.6239313Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar (2.3 MB at 51 kB/s)
+2023-03-24T11:12:41.6240729Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/hk2-api/2.5.0-b42/hk2-api-2.5.0-b42.jar
+2023-03-24T11:12:42.0063034Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/external/aopalliance-repackaged/2.5.0-b42/aopalliance-repackaged-2.5.0-b42.jar (15 kB at 323 B/s)
+2023-03-24T11:12:42.0065721Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/javax/inject/javax.inject/1/javax.inject-1.jar
+2023-03-24T11:12:42.1201991Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/core/jersey-common/2.26/jersey-common-2.26.jar (1.1 MB at 25 kB/s)
+2023-03-24T11:12:42.1211831Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/hk2-utils/2.5.0-b42/hk2-utils-2.5.0-b42.jar
+2023-03-24T11:12:42.3942961Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/hk2-locator/2.5.0-b42/hk2-locator-2.5.0-b42.jar (189 kB at 4.1 kB/s)
+2023-03-24T11:12:42.3944270Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/javassist/javassist/3.22.0-CR2/javassist-3.22.0-CR2.jar
+2023-03-24T11:12:42.3969158Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/inject/jersey-hk2/2.26/jersey-hk2-2.26.jar (62 kB at 1.4 kB/s)
+2023-03-24T11:12:42.3970599Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/media/jersey-media-json-jackson/2.26/jersey-media-json-jackson-2.26.jar
+2023-03-24T11:12:43.1375223Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/javax/inject/javax.inject/1/javax.inject-1.jar (2.5 kB at 53 B/s)
+2023-03-24T11:12:43.1379634Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/ext/jersey-entity-filtering/2.26/jersey-entity-filtering-2.26.jar
+2023-03-24T11:12:43.1874719Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/hk2-api/2.5.0-b42/hk2-api-2.5.0-b42.jar (187 kB at 4.0 kB/s)
+2023-03-24T11:12:43.1879128Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar
+2023-03-24T11:12:43.6523263Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/hk2/hk2-utils/2.5.0-b42/hk2-utils-2.5.0-b42.jar (135 kB at 2.9 kB/s)
+2023-03-24T11:12:43.6524365Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar
+2023-03-24T11:12:43.7804965Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/media/jersey-media-json-jackson/2.26/jersey-media-json-jackson-2.26.jar (61 kB at 1.3 kB/s)
+2023-03-24T11:12:43.7806243Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar
+2023-03-24T11:12:44.5263324Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/glassfish/jersey/ext/jersey-entity-filtering/2.26/jersey-entity-filtering-2.26.jar (70 kB at 1.4 kB/s)
+2023-03-24T11:12:44.5264457Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.4/jackson-module-jaxb-annotations-2.8.4.jar
+2023-03-24T11:12:44.5704735Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/javassist/javassist/3.22.0-CR2/javassist-3.22.0-CR2.jar (738 kB at 15 kB/s)
+2023-03-24T11:12:44.5705598Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-jdk14/1.7.25/slf4j-jdk14-1.7.25.jar
+2023-03-24T11:12:44.5988432Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar (56 kB at 1.2 kB/s)
+2023-03-24T11:12:44.5991823Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+2023-03-24T11:12:45.4342065Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar (281 kB at 5.7 kB/s)
+2023-03-24T11:12:45.7148197Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-jdk14/1.7.25/slf4j-jdk14-1.7.25.jar (8.5 kB at 171 B/s)
+2023-03-24T11:12:45.8027716Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.4/jackson-module-jaxb-annotations-2.8.4.jar (35 kB at 699 B/s)
+2023-03-24T11:12:45.8742438Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar (41 kB at 831 B/s)
+2023-03-24T11:12:46.3382494Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar (1.2 MB at 25 kB/s)
+2023-03-24T11:12:46.3553186Z [INFO] 
+2023-03-24T11:12:46.3555788Z [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ bank ---
+2023-03-24T11:12:46.3604607Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.pom
+2023-03-24T11:13:04.2287216Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.pom (1.5 kB at 81 B/s)
+2023-03-24T11:13:04.2315221Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven/2.0.6/maven-2.0.6.pom
+2023-03-24T11:13:05.9151149Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven/2.0.6/maven-2.0.6.pom (9.0 kB at 5.4 kB/s)
+2023-03-24T11:13:05.9167478Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/5/maven-parent-5.pom
+2023-03-24T11:13:07.6095262Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/5/maven-parent-5.pom (15 kB at 9.0 kB/s)
+2023-03-24T11:13:07.6113699Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/apache/3/apache-3.pom
+2023-03-24T11:13:09.2859311Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/apache/3/apache-3.pom (3.4 kB at 2.0 kB/s)
+2023-03-24T11:13:09.2887855Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.pom
+2023-03-24T11:13:26.4789982Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.pom (2.6 kB at 153 B/s)
+2023-03-24T11:13:26.4828201Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.pom
+2023-03-24T11:13:28.1681275Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.pom (2.0 kB at 1.2 kB/s)
+2023-03-24T11:13:28.1710713Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.pom
+2023-03-24T11:13:29.8566242Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.pom (3.0 kB at 1.8 kB/s)
+2023-03-24T11:13:29.8598822Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom
+2023-03-24T11:13:31.5638047Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom (1.9 kB at 1.1 kB/s)
+2023-03-24T11:13:31.5664378Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/1.0.11/plexus-1.0.11.pom
+2023-03-24T11:13:48.7916668Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/1.0.11/plexus-1.0.11.pom (9.0 kB at 520 B/s)
+2023-03-24T11:13:48.7945680Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.pom
+2023-03-24T11:13:50.5096380Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.pom (3.9 kB at 2.3 kB/s)
+2023-03-24T11:13:50.5138903Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-containers/1.0.3/plexus-containers-1.0.3.pom
+2023-03-24T11:13:52.1916365Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-containers/1.0.3/plexus-containers-1.0.3.pom (492 B at 292 B/s)
+2023-03-24T11:13:52.1934995Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/1.0.4/plexus-1.0.4.pom
+2023-03-24T11:14:09.4261601Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/1.0.4/plexus-1.0.4.pom (5.7 kB at 332 B/s)
+2023-03-24T11:14:09.4286478Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/junit/junit/3.8.1/junit-3.8.1.pom
+2023-03-24T11:14:11.1814367Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/junit/junit/3.8.1/junit-3.8.1.pom (998 B at 570 B/s)
+2023-03-24T11:14:11.1816195Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom
+2023-03-24T11:14:12.8753349Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom (6.9 kB at 4.0 kB/s)
+2023-03-24T11:14:12.8776815Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom
+2023-03-24T11:14:14.5645966Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom (3.1 kB at 1.9 kB/s)
+2023-03-24T11:14:14.5666611Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.pom
+2023-03-24T11:14:31.7646835Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.pom (2.0 kB at 115 B/s)
+2023-03-24T11:14:31.7660484Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.pom
+2023-03-24T11:14:33.4507325Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.pom (2.6 kB at 1.6 kB/s)
+2023-03-24T11:14:33.4537320Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.pom
+2023-03-24T11:14:35.1345826Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.pom (1.9 kB at 1.1 kB/s)
+2023-03-24T11:14:35.1389568Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.pom
+2023-03-24T11:14:36.8748809Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.pom (1.6 kB at 907 B/s)
+2023-03-24T11:14:36.8801613Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.pom
+2023-03-24T11:14:54.0807017Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.pom (1.9 kB at 113 B/s)
+2023-03-24T11:14:54.0842673Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.pom
+2023-03-24T11:14:55.7743799Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.pom (6.7 kB at 4.0 kB/s)
+2023-03-24T11:14:55.7782239Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.pom
+2023-03-24T11:14:57.4684628Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.pom (1.9 kB at 1.1 kB/s)
+2023-03-24T11:14:57.4712470Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.pom
+2023-03-24T11:15:14.7150029Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.pom (1.8 kB at 101 B/s)
+2023-03-24T11:15:14.7168065Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/reporting/maven-reporting/2.0.6/maven-reporting-2.0.6.pom
+2023-03-24T11:15:16.4828074Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/reporting/maven-reporting/2.0.6/maven-reporting-2.0.6.pom (1.4 kB at 814 B/s)
+2023-03-24T11:15:16.4853077Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom
+2023-03-24T11:15:18.1656060Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom (424 B at 252 B/s)
+2023-03-24T11:15:18.1676226Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom
+2023-03-24T11:15:19.8482084Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom (3.9 kB at 2.3 kB/s)
+2023-03-24T11:15:19.8512820Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.pom
+2023-03-24T11:15:36.9658658Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.pom (1.7 kB at 99 B/s)
+2023-03-24T11:15:36.9687089Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/commons-cli/commons-cli/1.0/commons-cli-1.0.pom
+2023-03-24T11:15:38.6563075Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/commons-cli/commons-cli/1.0/commons-cli-1.0.pom (2.1 kB at 1.2 kB/s)
+2023-03-24T11:15:38.6588749Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.pom
+2023-03-24T11:15:40.3882102Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.pom (2.0 kB at 1.2 kB/s)
+2023-03-24T11:15:40.3914262Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.pom
+2023-03-24T11:15:42.0626995Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.pom (7.1 kB at 4.2 kB/s)
+2023-03-24T11:15:42.0653081Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.pom
+2023-03-24T11:15:59.3405583Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.pom (1.3 kB at 72 B/s)
+2023-03-24T11:15:59.3428699Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/classworlds/classworlds/1.1/classworlds-1.1.pom
+2023-03-24T11:16:01.0250513Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/classworlds/classworlds/1.1/classworlds-1.1.pom (3.3 kB at 2.0 kB/s)
+2023-03-24T11:16:01.0275328Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom
+2023-03-24T11:16:02.7108234Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom (3.3 kB at 2.0 kB/s)
+2023-03-24T11:16:02.7122527Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom
+2023-03-24T11:16:19.9828274Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom (17 kB at 970 B/s)
+2023-03-24T11:16:19.9853174Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom
+2023-03-24T11:16:21.6825740Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom (5.8 kB at 3.4 kB/s)
+2023-03-24T11:16:21.6844220Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom
+2023-03-24T11:16:23.3590027Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom (8.7 kB at 5.2 kB/s)
+2023-03-24T11:16:23.3625752Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.pom
+2023-03-24T11:16:25.0639107Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.pom (6.8 kB at 4.0 kB/s)
+2023-03-24T11:16:25.0666437Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/2.0.2/plexus-2.0.2.pom
+2023-03-24T11:16:42.3401701Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/2.0.2/plexus-2.0.2.pom (12 kB at 672 B/s)
+2023-03-24T11:16:42.3436577Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interpolation/1.12/plexus-interpolation-1.12.pom
+2023-03-24T11:16:44.0274817Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interpolation/1.12/plexus-interpolation-1.12.pom (889 B at 527 B/s)
+2023-03-24T11:16:44.0292986Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-components/1.1.14/plexus-components-1.1.14.pom
+2023-03-24T11:16:45.7007309Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-components/1.1.14/plexus-components-1.1.14.pom (5.8 kB at 3.5 kB/s)
+2023-03-24T11:16:45.7051922Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.pom
+2023-03-24T11:16:47.3947205Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.pom (2.9 kB at 1.7 kB/s)
+2023-03-24T11:16:47.3962555Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/sonatype/spice/spice-parent/10/spice-parent-10.pom
+2023-03-24T11:17:04.6184779Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/sonatype/spice/spice-parent/10/spice-parent-10.pom (3.0 kB at 175 B/s)
+2023-03-24T11:17:04.6208647Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/sonatype/forge/forge-parent/3/forge-parent-3.pom
+2023-03-24T11:17:06.2962019Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/sonatype/forge/forge-parent/3/forge-parent-3.pom (5.0 kB at 3.0 kB/s)
+2023-03-24T11:17:06.2989260Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.pom
+2023-03-24T11:17:07.9744046Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.pom (8.1 kB at 4.8 kB/s)
+2023-03-24T11:17:07.9852019Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.pom
+2023-03-24T11:17:09.6946318Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.pom (890 B at 519 B/s)
+2023-03-24T11:17:09.6964837Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom
+2023-03-24T11:17:26.9114378Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom (2.8 kB at 165 B/s)
+2023-03-24T11:17:26.9128273Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/2.0.3/plexus-2.0.3.pom
+2023-03-24T11:17:28.5927862Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/2.0.3/plexus-2.0.3.pom (15 kB at 9.2 kB/s)
+2023-03-24T11:17:28.5984783Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar
+2023-03-24T11:17:28.5996687Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar
+2023-03-24T11:17:28.6003415Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar
+2023-03-24T11:17:28.6021967Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar
+2023-03-24T11:17:28.6026323Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar
+2023-03-24T11:17:30.2909132Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar (13 kB at 7.6 kB/s)
+2023-03-24T11:17:30.2910297Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.jar
+2023-03-24T11:17:30.4316552Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar (29 kB at 16 kB/s)
+2023-03-24T11:17:30.4319932Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.jar
+2023-03-24T11:17:30.4353828Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar (35 kB at 19 kB/s)
+2023-03-24T11:17:30.4356353Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.jar
+2023-03-24T11:17:30.5791176Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar (57 kB at 29 kB/s)
+2023-03-24T11:17:30.5792488Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar
+2023-03-24T11:17:30.7125264Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar (116 kB at 55 kB/s)
+2023-03-24T11:17:30.7127622Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar
+2023-03-24T11:17:31.5775876Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.jar (9.9 kB at 3.3 kB/s)
+2023-03-24T11:17:31.5776925Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.jar
+2023-03-24T11:17:31.6997041Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.jar (21 kB at 6.7 kB/s)
+2023-03-24T11:17:31.6998433Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/commons-cli/commons-cli/1.0/commons-cli-1.0.jar
+2023-03-24T11:17:31.7328034Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar (5.9 kB at 1.9 kB/s)
+2023-03-24T11:17:31.7329527Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar
+2023-03-24T11:17:31.8005040Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.jar (152 kB at 47 kB/s)
+2023-03-24T11:17:31.8006343Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar
+2023-03-24T11:17:32.9337441Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar (13 kB at 3.1 kB/s)
+2023-03-24T11:17:32.9350297Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/classworlds/classworlds/1.1/classworlds-1.1.jar
+2023-03-24T11:17:32.9743264Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/commons-cli/commons-cli/1.0/commons-cli-1.0.jar (30 kB at 6.9 kB/s)
+2023-03-24T11:17:32.9744817Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar
+2023-03-24T11:17:33.0032193Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar (37 kB at 8.4 kB/s)
+2023-03-24T11:17:33.0034661Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar
+2023-03-24T11:17:34.3798921Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar (87 kB at 15 kB/s)
+2023-03-24T11:17:34.3800290Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar
+2023-03-24T11:17:47.5474214Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar (24 kB at 1.3 kB/s)
+2023-03-24T11:17:47.5476734Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.jar
+2023-03-24T11:17:48.3099757Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.jar (14 kB at 690 B/s)
+2023-03-24T11:17:48.3101144Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar
+2023-03-24T11:17:48.6690061Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.jar (10 kB at 510 B/s)
+2023-03-24T11:17:48.6694561Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/junit/junit/3.8.1/junit-3.8.1.jar
+2023-03-24T11:17:49.7904710Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/classworlds/classworlds/1.1/classworlds-1.1.jar (38 kB at 1.8 kB/s)
+2023-03-24T11:17:49.7905586Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.jar
+2023-03-24T11:17:49.8326386Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar (49 kB at 2.3 kB/s)
+2023-03-24T11:17:49.8331204Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.jar
+2023-03-24T11:17:49.8335999Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar (194 kB at 9.1 kB/s)
+2023-03-24T11:17:49.8337183Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.jar
+2023-03-24T11:17:50.2164142Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/junit/junit/3.8.1/junit-3.8.1.jar (121 kB at 5.6 kB/s)
+2023-03-24T11:17:50.2165790Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.jar
+2023-03-24T11:17:50.9646326Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.jar (6.8 kB at 304 B/s)
+2023-03-24T11:17:51.1111126Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.jar (43 kB at 1.9 kB/s)
+2023-03-24T11:17:51.1819554Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar (86 kB at 3.8 kB/s)
+2023-03-24T11:17:51.4516298Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.jar (223 kB at 9.8 kB/s)
+2023-03-24T11:17:51.6177553Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.jar (61 kB at 2.7 kB/s)
+2023-03-24T11:17:51.6765464Z [INFO] Using 'UTF-8' encoding to copy filtered resources.
+2023-03-24T11:17:51.6789312Z [INFO] Copying 2 resources
+2023-03-24T11:17:51.6833325Z [INFO] 
+2023-03-24T11:17:51.6834129Z [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ bank ---
+2023-03-24T11:17:51.6865141Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom
+2023-03-24T11:17:53.3859279Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom (1.5 kB at 879 B/s)
+2023-03-24T11:17:53.3874173Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven/2.0.9/maven-2.0.9.pom
+2023-03-24T11:18:10.7392312Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven/2.0.9/maven-2.0.9.pom (19 kB at 1.1 kB/s)
+2023-03-24T11:18:10.7414261Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/8/maven-parent-8.pom
+2023-03-24T11:18:12.4234732Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/8/maven-parent-8.pom (24 kB at 14 kB/s)
+2023-03-24T11:18:12.4256136Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/apache/4/apache-4.pom
+2023-03-24T11:18:14.1188475Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/apache/4/apache-4.pom (4.5 kB at 2.7 kB/s)
+2023-03-24T11:18:14.1215873Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.pom
+2023-03-24T11:18:31.5989662Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.pom (1.6 kB at 92 B/s)
+2023-03-24T11:18:31.6016457Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.pom
+2023-03-24T11:18:33.3001614Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.pom (2.3 kB at 1.4 kB/s)
+2023-03-24T11:18:33.3031109Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.pom
+2023-03-24T11:18:35.0152981Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.pom (7.8 kB at 4.5 kB/s)
+2023-03-24T11:18:35.0194173Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.pom
+2023-03-24T11:18:36.7229635Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.pom (2.1 kB at 1.2 kB/s)
+2023-03-24T11:18:36.7256081Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.pom
+2023-03-24T11:18:53.9131524Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.pom (3.1 kB at 182 B/s)
+2023-03-24T11:18:53.9173572Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.pom
+2023-03-24T11:18:55.6023398Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.pom (2.0 kB at 1.2 kB/s)
+2023-03-24T11:18:55.6052040Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.pom
+2023-03-24T11:18:57.2936763Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.pom (2.0 kB at 1.2 kB/s)
+2023-03-24T11:18:57.2970341Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.pom
+2023-03-24T11:18:58.9736780Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.pom (1.9 kB at 1.1 kB/s)
+2023-03-24T11:18:58.9831705Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.pom
+2023-03-24T11:19:16.1544560Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.pom (1.7 kB at 101 B/s)
+2023-03-24T11:19:16.1570611Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.pom
+2023-03-24T11:19:17.8633546Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.pom (2.7 kB at 1.6 kB/s)
+2023-03-24T11:19:17.8662846Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.pom
+2023-03-24T11:19:19.5531564Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.pom (2.7 kB at 1.6 kB/s)
+2023-03-24T11:19:19.5561536Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.pom
+2023-03-24T11:19:21.2292068Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.pom (2.0 kB at 1.2 kB/s)
+2023-03-24T11:19:21.2326544Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.pom
+2023-03-24T11:19:38.4926434Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.pom (2.1 kB at 120 B/s)
+2023-03-24T11:19:38.4966481Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.pom
+2023-03-24T11:19:40.1876100Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.pom (1.3 kB at 760 B/s)
+2023-03-24T11:19:40.1890890Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.pom
+2023-03-24T11:19:41.8792341Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.pom (3.4 kB at 2.0 kB/s)
+2023-03-24T11:19:41.8844253Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.pom
+2023-03-24T11:19:59.1191325Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.pom (4.0 kB at 234 B/s)
+2023-03-24T11:19:59.1208834Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-shared-components/18/maven-shared-components-18.pom
+2023-03-24T11:20:00.8097067Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-shared-components/18/maven-shared-components-18.pom (4.9 kB at 2.9 kB/s)
+2023-03-24T11:20:00.8098416Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom
+2023-03-24T11:20:03.2411475Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom (965 B at 396 B/s)
+2023-03-24T11:20:03.2447089Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.pom
+2023-03-24T11:20:04.9325655Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.pom (4.7 kB at 2.8 kB/s)
+2023-03-24T11:20:04.9345545Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-shared-components/19/maven-shared-components-19.pom
+2023-03-24T11:20:22.1445615Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-shared-components/19/maven-shared-components-19.pom (6.4 kB at 369 B/s)
+2023-03-24T11:20:22.1475452Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.pom
+2023-03-24T11:20:23.8293401Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.pom (1.5 kB at 867 B/s)
+2023-03-24T11:20:23.8328354Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven/2.2.1/maven-2.2.1.pom
+2023-03-24T11:20:25.5200456Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven/2.2.1/maven-2.2.1.pom (22 kB at 13 kB/s)
+2023-03-24T11:20:25.5220547Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/11/maven-parent-11.pom
+2023-03-24T11:20:42.6325205Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/11/maven-parent-11.pom (32 kB at 1.9 kB/s)
+2023-03-24T11:20:42.6350337Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/apache/5/apache-5.pom
+2023-03-24T11:20:44.3094045Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/apache/5/apache-5.pom (4.1 kB at 2.4 kB/s)
+2023-03-24T11:20:44.3117587Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.pom
+2023-03-24T11:20:46.0037740Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.pom (12 kB at 6.9 kB/s)
+2023-03-24T11:20:46.0068230Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.pom
+2023-03-24T11:20:47.6952885Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.pom (2.2 kB at 1.3 kB/s)
+2023-03-24T11:20:47.6981039Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.pom
+2023-03-24T11:21:04.9101752Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.pom (3.2 kB at 188 B/s)
+2023-03-24T11:21:04.9180560Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.pom
+2023-03-24T11:21:06.6029681Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.pom (889 B at 526 B/s)
+2023-03-24T11:21:06.6058361Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.pom
+2023-03-24T11:21:08.2935998Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.pom (2.0 kB at 1.2 kB/s)
+2023-03-24T11:21:08.2989581Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.pom
+2023-03-24T11:21:09.9847461Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.pom (1.9 kB at 1.1 kB/s)
+2023-03-24T11:21:09.9869628Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-parent/1.5.6/slf4j-parent-1.5.6.pom
+2023-03-24T11:21:27.2391645Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-parent/1.5.6/slf4j-parent-1.5.6.pom (7.9 kB at 459 B/s)
+2023-03-24T11:21:27.2425442Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.pom
+2023-03-24T11:21:28.9295508Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.pom (3.0 kB at 1.8 kB/s)
+2023-03-24T11:21:28.9319288Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.pom
+2023-03-24T11:21:30.6157949Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.pom (2.2 kB at 1.3 kB/s)
+2023-03-24T11:21:30.6185595Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.pom
+2023-03-24T11:21:32.3125681Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.pom (2.2 kB at 1.3 kB/s)
+2023-03-24T11:21:32.3165337Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.pom
+2023-03-24T11:21:49.7223366Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.pom (1.6 kB at 90 B/s)
+2023-03-24T11:21:49.7257945Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.pom
+2023-03-24T11:21:51.4144730Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.pom (1.9 kB at 1.1 kB/s)
+2023-03-24T11:21:51.4177366Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.pom
+2023-03-24T11:21:53.1087184Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.pom (1.7 kB at 1.0 kB/s)
+2023-03-24T11:21:53.1142394Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.pom
+2023-03-24T11:21:54.7998214Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.pom (2.8 kB at 1.6 kB/s)
+2023-03-24T11:21:54.8026105Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.pom
+2023-03-24T11:22:12.0656182Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.pom (3.1 kB at 179 B/s)
+2023-03-24T11:22:12.0683875Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.pom
+2023-03-24T11:22:15.3717568Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.pom (880 B at 266 B/s)
+2023-03-24T11:22:15.3738158Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.pom
+2023-03-24T11:22:32.4654318Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.pom (1.9 kB at 112 B/s)
+2023-03-24T11:22:32.4720871Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.pom
+2023-03-24T11:22:34.1565464Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.pom (2.1 kB at 1.2 kB/s)
+2023-03-24T11:22:34.1598171Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.pom
+2023-03-24T11:22:35.8266578Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.pom (1.3 kB at 753 B/s)
+2023-03-24T11:22:35.8289600Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom
+2023-03-24T11:22:37.5081704Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom (3.0 kB at 1.8 kB/s)
+2023-03-24T11:22:37.5099172Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/sonatype/spice/spice-parent/12/spice-parent-12.pom
+2023-03-24T11:22:54.7380360Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/sonatype/spice/spice-parent/12/spice-parent-12.pom (6.8 kB at 394 B/s)
+2023-03-24T11:22:54.7401956Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/sonatype/forge/forge-parent/4/forge-parent-4.pom
+2023-03-24T11:22:56.4080827Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/sonatype/forge/forge-parent/4/forge-parent-4.pom (8.4 kB at 5.0 kB/s)
+2023-03-24T11:22:56.4103789Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.5.5/plexus-utils-1.5.5.pom
+2023-03-24T11:22:58.0762489Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.5.5/plexus-utils-1.5.5.pom (5.1 kB at 3.1 kB/s)
+2023-03-24T11:22:58.0788677Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom
+2023-03-24T11:22:59.7599818Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom (2.1 kB at 1.2 kB/s)
+2023-03-24T11:22:59.7623184Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom
+2023-03-24T11:23:17.0156006Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom (815 B at 47 B/s)
+2023-03-24T11:23:17.0173471Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom
+2023-03-24T11:23:18.6919484Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom (4.2 kB at 2.5 kB/s)
+2023-03-24T11:23:18.6933627Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom
+2023-03-24T11:23:20.3714694Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom (17 kB at 10 kB/s)
+2023-03-24T11:23:20.3739840Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.pom
+2023-03-24T11:23:22.0546543Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.pom (865 B at 514 B/s)
+2023-03-24T11:23:22.0560350Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom
+2023-03-24T11:23:39.3489696Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom (3.6 kB at 208 B/s)
+2023-03-24T11:23:39.3508025Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-components/1.3.1/plexus-components-1.3.1.pom
+2023-03-24T11:23:41.0105084Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-components/1.3.1/plexus-components-1.3.1.pom (3.1 kB at 1.8 kB/s)
+2023-03-24T11:23:41.0117081Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom
+2023-03-24T11:23:42.6951174Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom (20 kB at 12 kB/s)
+2023-03-24T11:23:42.6975380Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/sonatype/spice/spice-parent/17/spice-parent-17.pom
+2023-03-24T11:23:44.3698340Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/sonatype/spice/spice-parent/17/spice-parent-17.pom (6.8 kB at 4.0 kB/s)
+2023-03-24T11:23:44.3711675Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/sonatype/forge/forge-parent/10/forge-parent-10.pom
+2023-03-24T11:24:01.5986589Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/sonatype/forge/forge-parent/10/forge-parent-10.pom (14 kB at 787 B/s)
+2023-03-24T11:24:01.6055813Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.pom
+2023-03-24T11:24:04.5172054Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.pom (3.1 kB at 1.1 kB/s)
+2023-03-24T11:24:04.5188798Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/3.2/plexus-3.2.pom
+2023-03-24T11:24:06.1959715Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/3.2/plexus-3.2.pom (19 kB at 11 kB/s)
+2023-03-24T11:24:06.1989127Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom
+2023-03-24T11:24:23.3084538Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom (690 B at 40 B/s)
+2023-03-24T11:24:23.3121220Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.pom
+2023-03-24T11:24:25.0048458Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.pom (769 B at 453 B/s)
+2023-03-24T11:24:25.0062620Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom
+2023-03-24T11:24:26.6784159Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom (1.2 kB at 742 B/s)
+2023-03-24T11:24:26.6814099Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.pom
+2023-03-24T11:24:28.3577145Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.pom (2.8 kB at 1.6 kB/s)
+2023-03-24T11:24:28.3673638Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.pom
+2023-03-24T11:24:45.5760284Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.pom (2.3 kB at 131 B/s)
+2023-03-24T11:24:45.5786735Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.pom
+2023-03-24T11:24:47.3199298Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.pom (4.0 kB at 2.3 kB/s)
+2023-03-24T11:24:47.3221387Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.pom
+2023-03-24T11:24:49.0117010Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.pom (2.8 kB at 1.7 kB/s)
+2023-03-24T11:24:49.0129975Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/xbean/xbean/3.4/xbean-3.4.pom
+2023-03-24T11:24:50.6800198Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/xbean/xbean/3.4/xbean-3.4.pom (19 kB at 11 kB/s)
+2023-03-24T11:24:50.6830295Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/log4j/log4j/1.2.12/log4j-1.2.12.pom
+2023-03-24T11:25:07.8925789Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/log4j/log4j/1.2.12/log4j-1.2.12.pom (145 B at 8 B/s)
+2023-03-24T11:25:07.8948298Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.pom
+2023-03-24T11:25:09.5893286Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.pom (5.3 kB at 3.2 kB/s)
+2023-03-24T11:25:09.5917486Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/google/collections/google-collections/1.0/google-collections-1.0.pom
+2023-03-24T11:25:11.2685346Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/google/collections/google-collections/1.0/google-collections-1.0.pom (2.5 kB at 1.5 kB/s)
+2023-03-24T11:25:11.2690878Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/google/google/1/google-1.pom
+2023-03-24T11:25:12.9458600Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/google/google/1/google-1.pom (1.6 kB at 926 B/s)
+2023-03-24T11:25:12.9475607Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/junit/junit/3.8.2/junit-3.8.2.pom
+2023-03-24T11:25:30.1660256Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/junit/junit/3.8.2/junit-3.8.2.pom (747 B at 43 B/s)
+2023-03-24T11:25:30.1713990Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.jar
+2023-03-24T11:25:30.1718937Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.jar
+2023-03-24T11:25:30.1723723Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.jar
+2023-03-24T11:25:30.1728666Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.jar
+2023-03-24T11:25:30.1792580Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.jar
+2023-03-24T11:25:31.8806391Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.jar (13 kB at 7.5 kB/s)
+2023-03-24T11:25:31.8807894Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.jar
+2023-03-24T11:25:32.0087029Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.jar (49 kB at 27 kB/s)
+2023-03-24T11:25:32.0088242Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.jar
+2023-03-24T11:25:32.1312906Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.jar (89 kB at 45 kB/s)
+2023-03-24T11:25:32.1314008Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.jar
+2023-03-24T11:25:32.4062132Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.jar (211 kB at 94 kB/s)
+2023-03-24T11:25:32.4066553Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.jar
+2023-03-24T11:25:32.4092953Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.jar (160 kB at 71 kB/s)
+2023-03-24T11:25:32.4096347Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.jar
+2023-03-24T11:25:33.1402109Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.jar (21 kB at 7.0 kB/s)
+2023-03-24T11:25:33.1403934Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.jar
+2023-03-24T11:25:33.2537140Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.jar (35 kB at 11 kB/s)
+2023-03-24T11:25:33.2538294Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.jar
+2023-03-24T11:25:33.5250910Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.jar (87 kB at 26 kB/s)
+2023-03-24T11:25:33.5257935Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.jar
+2023-03-24T11:25:33.5370086Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.jar (14 kB at 4.1 kB/s)
+2023-03-24T11:25:33.5373361Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.jar
+2023-03-24T11:25:33.6501541Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.jar (25 kB at 7.1 kB/s)
+2023-03-24T11:25:33.6502490Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.jar
+2023-03-24T11:25:34.5107489Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.jar (29 kB at 6.7 kB/s)
+2023-03-24T11:25:34.5108752Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.jar
+2023-03-24T11:25:34.6846496Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.jar (122 kB at 27 kB/s)
+2023-03-24T11:25:34.6848001Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.jar
+2023-03-24T11:25:34.7710341Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.jar (37 kB at 8.1 kB/s)
+2023-03-24T11:25:34.7711686Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+2023-03-24T11:25:34.7759609Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.jar (10 kB at 2.2 kB/s)
+2023-03-24T11:25:34.7762036Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar
+2023-03-24T11:25:34.9222836Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.jar (58 kB at 12 kB/s)
+2023-03-24T11:25:34.9224056Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+2023-03-24T11:25:35.9062512Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar (14 kB at 2.4 kB/s)
+2023-03-24T11:25:35.9065506Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.jar
+2023-03-24T11:25:36.0318914Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar (32 kB at 5.4 kB/s)
+2023-03-24T11:25:36.0320149Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.jar
+2023-03-24T11:25:36.0456852Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar (4.2 kB at 717 B/s)
+2023-03-24T11:25:36.0458240Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.jar
+2023-03-24T11:25:36.1920900Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.jar (155 kB at 26 kB/s)
+2023-03-24T11:25:36.1921909Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar
+2023-03-24T11:25:51.3777527Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.jar (33 kB at 1.6 kB/s)
+2023-03-24T11:25:51.3780100Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.jar
+2023-03-24T11:25:52.5706197Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.jar (25 kB at 1.1 kB/s)
+2023-03-24T11:25:52.5707593Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar
+2023-03-24T11:25:52.6388228Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.jar (46 kB at 2.1 kB/s)
+2023-03-24T11:25:52.6389053Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/log4j/log4j/1.2.12/log4j-1.2.12.jar
+2023-03-24T11:25:52.6498364Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.jar (4.6 kB at 202 B/s)
+2023-03-24T11:25:52.6499550Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar
+2023-03-24T11:25:52.9172428Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.jar (19 kB at 834 B/s)
+2023-03-24T11:25:52.9173824Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/google/collections/google-collections/1.0/google-collections-1.0.jar
+2023-03-24T11:25:53.3067142Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar (217 kB at 9.4 kB/s)
+2023-03-24T11:25:53.3068381Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/junit/junit/3.8.2/junit-3.8.2.jar
+2023-03-24T11:25:53.9123385Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar (45 kB at 1.9 kB/s)
+2023-03-24T11:25:54.0818726Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar (134 kB at 5.6 kB/s)
+2023-03-24T11:25:54.4519564Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/log4j/log4j/1.2.12/log4j-1.2.12.jar (358 kB at 15 kB/s)
+2023-03-24T11:25:54.7925907Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/junit/junit/3.8.2/junit-3.8.2.jar (121 kB at 4.9 kB/s)
+2023-03-24T11:25:54.9902878Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/google/collections/google-collections/1.0/google-collections-1.0.jar (640 kB at 26 kB/s)
+2023-03-24T11:25:55.0649937Z [INFO] Changes detected - recompiling the module!
+2023-03-24T11:25:55.0697235Z [INFO] Compiling 10 source files to /home/runner/work/nexus-test/nexus-test/target/classes
+2023-03-24T11:25:56.8468454Z [INFO] 
+2023-03-24T11:25:56.8469319Z [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ bank ---
+2023-03-24T11:25:56.8514959Z [INFO] Using 'UTF-8' encoding to copy filtered resources.
+2023-03-24T11:25:56.8515632Z [INFO] skip non existing resourceDirectory /home/runner/work/nexus-test/nexus-test/src/test/resources
+2023-03-24T11:25:56.8523428Z [INFO] 
+2023-03-24T11:25:56.8524040Z [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ bank ---
+2023-03-24T11:25:56.8736777Z [INFO] Changes detected - recompiling the module!
+2023-03-24T11:25:56.8737454Z [INFO] Compiling 5 source files to /home/runner/work/nexus-test/nexus-test/target/test-classes
+2023-03-24T11:25:57.2363835Z [WARNING] /home/runner/work/nexus-test/nexus-test/src/test/java/dk/hindsholm/bank/AccountExposureIT.java: /home/runner/work/nexus-test/nexus-test/src/test/java/dk/hindsholm/bank/AccountExposureIT.java uses unchecked or unsafe operations.
+2023-03-24T11:25:57.2365153Z [WARNING] /home/runner/work/nexus-test/nexus-test/src/test/java/dk/hindsholm/bank/AccountExposureIT.java: Recompile with -Xlint:unchecked for details.
+2023-03-24T11:25:57.2365731Z [INFO] 
+2023-03-24T11:25:57.2366777Z [INFO] --- jaxrs-analyzer-maven-plugin:0.17:analyze-jaxrs (default) @ bank ---
+2023-03-24T11:25:57.2410784Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/sebastian-daschner/jaxrs-analyzer/0.17/jaxrs-analyzer-0.17.pom
+2023-03-24T11:26:14.5386644Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/sebastian-daschner/jaxrs-analyzer/0.17/jaxrs-analyzer-0.17.pom (5.2 kB at 302 B/s)
+2023-03-24T11:26:14.5413933Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/eclipse/aether/aether-api/1.0.2.v20150114/aether-api-1.0.2.v20150114.pom
+2023-03-24T11:26:16.2152803Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/eclipse/aether/aether-api/1.0.2.v20150114/aether-api-1.0.2.v20150114.pom (1.8 kB at 1.1 kB/s)
+2023-03-24T11:26:16.2165844Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/eclipse/aether/aether/1.0.2.v20150114/aether-1.0.2.v20150114.pom
+2023-03-24T11:26:17.8904851Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/eclipse/aether/aether/1.0.2.v20150114/aether-1.0.2.v20150114.pom (29 kB at 18 kB/s)
+2023-03-24T11:26:17.8947243Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/sebastian-daschner/jaxrs-analyzer/0.17/jaxrs-analyzer-0.17.jar
+2023-03-24T11:26:17.8948204Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/eclipse/aether/aether-api/1.0.2.v20150114/aether-api-1.0.2.v20150114.jar
+2023-03-24T11:26:17.8976456Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.jar
+2023-03-24T11:26:31.3248313Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/sebastian-daschner/jaxrs-analyzer/0.17/jaxrs-analyzer-0.17.jar (4.1 MB at 307 kB/s)
+2023-03-24T11:26:35.4043445Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.jar (169 kB at 9.6 kB/s)
+2023-03-24T11:26:36.4260851Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/eclipse/aether/aether-api/1.0.2.v20150114/aether-api-1.0.2.v20150114.jar (136 kB at 7.4 kB/s)
+2023-03-24T11:26:36.4821174Z [INFO] analyzing JAX-RS resources, using Swagger backend
+2023-03-24T11:26:36.4864976Z [INFO] Generating resources at /home/runner/work/nexus-test/nexus-test/target/jaxrs-analyzer/swagger.json
+2023-03-24T11:26:37.2703384Z [INFO] 
+2023-03-24T11:26:37.2704702Z [INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ bank ---
+2023-03-24T11:26:37.2738110Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.pom
+2023-03-24T11:26:54.4241682Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.pom (11 kB at 662 B/s)
+2023-03-24T11:26:54.4316744Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5/maven-plugin-annotations-3.5.pom
+2023-03-24T11:26:56.1195312Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5/maven-plugin-annotations-3.5.pom (1.7 kB at 989 B/s)
+2023-03-24T11:26:56.1214044Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugin-tools/maven-plugin-tools/3.5/maven-plugin-tools-3.5.pom
+2023-03-24T11:26:57.7820044Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugin-tools/maven-plugin-tools/3.5/maven-plugin-tools-3.5.pom (16 kB at 9.7 kB/s)
+2023-03-24T11:26:57.7844696Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/30/maven-parent-30.pom
+2023-03-24T11:26:59.4603175Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/30/maven-parent-30.pom (41 kB at 25 kB/s)
+2023-03-24T11:26:59.4629841Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/apache/18/apache-18.pom
+2023-03-24T11:27:16.6729975Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/apache/18/apache-18.pom (16 kB at 910 B/s)
+2023-03-24T11:27:16.6760528Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire-api/2.22.0/surefire-api-2.22.0.pom
+2023-03-24T11:27:18.3642931Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire-api/2.22.0/surefire-api-2.22.0.pom (3.5 kB at 2.1 kB/s)
+2023-03-24T11:27:18.3688116Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.pom
+2023-03-24T11:27:20.0421902Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.pom (2.0 kB at 1.2 kB/s)
+2023-03-24T11:27:20.0474372Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire-booter/2.22.0/surefire-booter-2.22.0.pom
+2023-03-24T11:27:21.7197975Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire-booter/2.22.0/surefire-booter-2.22.0.pom (7.4 kB at 4.4 kB/s)
+2023-03-24T11:27:21.7278558Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.pom
+2023-03-24T11:27:38.9644447Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.pom (2.4 kB at 137 B/s)
+2023-03-24T11:27:38.9658403Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-shared-components/15/maven-shared-components-15.pom
+2023-03-24T11:27:40.6394146Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-shared-components/15/maven-shared-components-15.pom (9.3 kB at 5.6 kB/s)
+2023-03-24T11:27:40.6410316Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/16/maven-parent-16.pom
+2023-03-24T11:27:42.3216075Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/16/maven-parent-16.pom (23 kB at 14 kB/s)
+2023-03-24T11:27:42.3230783Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/apache/7/apache-7.pom
+2023-03-24T11:27:44.0061130Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/apache/7/apache-7.pom (14 kB at 8.6 kB/s)
+2023-03-24T11:27:44.0118795Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.pom
+2023-03-24T11:28:01.2218397Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.pom (3.3 kB at 194 B/s)
+2023-03-24T11:28:01.2246043Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-java/0.9.8/plexus-java-0.9.8.pom
+2023-03-24T11:28:02.9005805Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-java/0.9.8/plexus-java-0.9.8.pom (2.4 kB at 1.4 kB/s)
+2023-03-24T11:28:02.9026584Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-languages/0.9.8/plexus-languages-0.9.8.pom
+2023-03-24T11:28:04.5757864Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-languages/0.9.8/plexus-languages-0.9.8.pom (2.2 kB at 1.3 kB/s)
+2023-03-24T11:28:04.5769624Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/4.0/plexus-4.0.pom
+2023-03-24T11:28:06.2454206Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/4.0/plexus-4.0.pom (22 kB at 13 kB/s)
+2023-03-24T11:28:06.2487748Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom
+2023-03-24T11:28:23.4470896Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom (2.9 kB at 170 B/s)
+2023-03-24T11:28:23.4503244Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/ow2/ow2/1.5/ow2-1.5.pom
+2023-03-24T11:28:25.1211518Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/ow2/ow2/1.5/ow2-1.5.pom (11 kB at 6.7 kB/s)
+2023-03-24T11:28:25.1251132Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/thoughtworks/qdox/qdox/2.0-M7/qdox-2.0-M7.pom
+2023-03-24T11:28:26.8065949Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/thoughtworks/qdox/qdox/2.0-M7/qdox-2.0-M7.pom (16 kB at 9.4 kB/s)
+2023-03-24T11:28:26.8069996Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+2023-03-24T11:28:28.4800291Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/sonatype/oss/oss-parent/9/oss-parent-9.pom (6.6 kB at 3.9 kB/s)
+2023-03-24T11:28:28.4859957Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.jar
+2023-03-24T11:28:28.4896417Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar
+2023-03-24T11:28:28.4901663Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5/maven-plugin-annotations-3.5.jar
+2023-03-24T11:28:28.4932717Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire-api/2.22.0/surefire-api-2.22.0.jar
+2023-03-24T11:28:28.4947801Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.jar
+2023-03-24T11:28:30.1826776Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5/maven-plugin-annotations-3.5.jar (14 kB at 8.4 kB/s)
+2023-03-24T11:28:30.1827803Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire-booter/2.22.0/surefire-booter-2.22.0.jar
+2023-03-24T11:28:30.5885726Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire-api/2.22.0/surefire-api-2.22.0.jar (186 kB at 89 kB/s)
+2023-03-24T11:28:30.5887056Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar
+2023-03-24T11:28:30.9881217Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.jar (524 kB at 209 kB/s)
+2023-03-24T11:28:30.9884181Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar
+2023-03-24T11:28:31.9849233Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar (80 kB at 23 kB/s)
+2023-03-24T11:28:31.9850748Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar
+2023-03-24T11:28:45.7059525Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.jar (13 kB at 775 B/s)
+2023-03-24T11:28:45.7061476Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar
+2023-03-24T11:28:45.7651410Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar (12 kB at 716 B/s)
+2023-03-24T11:28:45.7652565Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar
+2023-03-24T11:28:47.0520621Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar (49 kB at 2.6 kB/s)
+2023-03-24T11:28:47.0523089Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar
+2023-03-24T11:28:47.2121773Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar (156 kB at 8.3 kB/s)
+2023-03-24T11:28:47.2123498Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar
+2023-03-24T11:28:47.2429309Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire-booter/2.22.0/surefire-booter-2.22.0.jar (273 kB at 15 kB/s)
+2023-03-24T11:28:47.2430319Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar
+2023-03-24T11:28:48.0576620Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar (228 kB at 12 kB/s)
+2023-03-24T11:28:48.0578224Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar
+2023-03-24T11:28:48.3192768Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar (35 kB at 1.8 kB/s)
+2023-03-24T11:28:48.3193647Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar
+2023-03-24T11:28:48.7360454Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar (68 kB at 3.3 kB/s)
+2023-03-24T11:28:48.7361948Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar
+2023-03-24T11:28:48.7768004Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar (39 kB at 1.9 kB/s)
+2023-03-24T11:28:48.7769481Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.jar
+2023-03-24T11:28:48.8749240Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar (332 kB at 16 kB/s)
+2023-03-24T11:28:48.8750397Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.jar
+2023-03-24T11:28:49.3093190Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar (30 kB at 1.4 kB/s)
+2023-03-24T11:28:49.3094518Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.jar
+2023-03-24T11:28:49.5741165Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar (51 kB at 2.4 kB/s)
+2023-03-24T11:28:49.5744805Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar
+2023-03-24T11:28:50.1189447Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar (88 kB at 4.0 kB/s)
+2023-03-24T11:28:50.1194012Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar
+2023-03-24T11:28:50.1421698Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.jar (22 kB at 1.0 kB/s)
+2023-03-24T11:28:50.1426934Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar
+2023-03-24T11:28:50.2804097Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.jar (178 kB at 8.2 kB/s)
+2023-03-24T11:28:50.2805045Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar
+2023-03-24T11:28:50.4258953Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.jar (8.8 kB at 401 B/s)
+2023-03-24T11:28:50.4262951Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar
+2023-03-24T11:28:50.8353238Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar (22 kB at 999 B/s)
+2023-03-24T11:28:50.8354241Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.jar
+2023-03-24T11:28:51.2505204Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar (17 kB at 734 B/s)
+2023-03-24T11:28:51.2506972Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar
+2023-03-24T11:28:51.2735103Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar (11 kB at 480 B/s)
+2023-03-24T11:28:51.2736302Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+2023-03-24T11:28:51.5366333Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar (26 kB at 1.1 kB/s)
+2023-03-24T11:28:51.5368111Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar
+2023-03-24T11:28:51.5382496Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar (13 kB at 565 B/s)
+2023-03-24T11:28:51.5383667Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-java/0.9.8/plexus-java-0.9.8.jar
+2023-03-24T11:28:52.4017891Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar (13 kB at 564 B/s)
+2023-03-24T11:28:52.4020501Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar
+2023-03-24T11:28:52.5028349Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar (29 kB at 1.2 kB/s)
+2023-03-24T11:28:52.5030197Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/thoughtworks/qdox/qdox/2.0-M7/qdox-2.0-M7.jar
+2023-03-24T11:28:52.8100169Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-java/0.9.8/plexus-java-0.9.8.jar (35 kB at 1.4 kB/s)
+2023-03-24T11:29:07.4650744Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.jar (10 kB at 268 B/s)
+2023-03-24T11:29:09.1685896Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar (38 kB at 924 B/s)
+2023-03-24T11:29:09.2624085Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar (108 kB at 2.7 kB/s)
+2023-03-24T11:29:09.9273555Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/thoughtworks/qdox/qdox/2.0-M7/qdox-2.0-M7.jar (315 kB at 7.6 kB/s)
+2023-03-24T11:29:10.0705092Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire-junit-platform/2.22.0/surefire-junit-platform-2.22.0.pom
+2023-03-24T11:29:11.7337927Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire-junit-platform/2.22.0/surefire-junit-platform-2.22.0.pom (7.0 kB at 4.2 kB/s)
+2023-03-24T11:29:11.7353836Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire-providers/2.22.0/surefire-providers-2.22.0.pom
+2023-03-24T11:29:13.4275404Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire-providers/2.22.0/surefire-providers-2.22.0.pom (2.5 kB at 1.5 kB/s)
+2023-03-24T11:29:13.4403478Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-launcher/1.2.0/junit-platform-launcher-1.2.0.pom
+2023-03-24T11:29:30.6147095Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-launcher/1.2.0/junit-platform-launcher-1.2.0.pom (2.2 kB at 129 B/s)
+2023-03-24T11:29:30.6183528Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-engine/1.2.0/junit-platform-engine-1.2.0.pom
+2023-03-24T11:29:32.3040618Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-engine/1.2.0/junit-platform-engine-1.2.0.pom (2.4 kB at 1.4 kB/s)
+2023-03-24T11:29:32.3071986Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.pom
+2023-03-24T11:29:33.9781925Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.pom (2.0 kB at 1.2 kB/s)
+2023-03-24T11:29:33.9813987Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/opentest4j/opentest4j/1.1.0/opentest4j-1.1.0.pom
+2023-03-24T11:29:51.2482792Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/opentest4j/opentest4j/1.1.0/opentest4j-1.1.0.pom (1.7 kB at 97 B/s)
+2023-03-24T11:29:51.2802518Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire-junit-platform/2.22.0/surefire-junit-platform-2.22.0.jar
+2023-03-24T11:29:51.2807120Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-launcher/1.2.0/junit-platform-launcher-1.2.0.jar
+2023-03-24T11:29:51.2823445Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-engine/1.2.0/junit-platform-engine-1.2.0.jar
+2023-03-24T11:29:51.2824723Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar
+2023-03-24T11:29:51.2825573Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/opentest4j/opentest4j/1.1.0/opentest4j-1.1.0.jar
+2023-03-24T11:29:52.9987623Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/opentest4j/opentest4j/1.1.0/opentest4j-1.1.0.jar (6.8 kB at 4.0 kB/s)
+2023-03-24T11:29:53.2403480Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-launcher/1.2.0/junit-platform-launcher-1.2.0.jar (80 kB at 41 kB/s)
+2023-03-24T11:29:53.2575262Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar (78 kB at 40 kB/s)
+2023-03-24T11:29:53.2733653Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/surefire/surefire-junit-platform/2.22.0/surefire-junit-platform-2.22.0.jar (66 kB at 33 kB/s)
+2023-03-24T11:29:53.3861324Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/junit/platform/junit-platform-engine/1.2.0/junit-platform-engine-1.2.0.jar (90 kB at 43 kB/s)
+2023-03-24T11:29:53.3989840Z [INFO] 
+2023-03-24T11:29:53.3990762Z [INFO] -------------------------------------------------------
+2023-03-24T11:29:53.3991224Z [INFO]  T E S T S
+2023-03-24T11:29:53.3992182Z [INFO] -------------------------------------------------------
+2023-03-24T11:29:54.0163146Z [INFO] Running dk.hindsholm.bank.boundary.AccountResourceTest
+2023-03-24T11:29:54.5277416Z [INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.475 s - in dk.hindsholm.bank.boundary.AccountResourceTest
+2023-03-24T11:29:54.5454719Z [INFO] Running dk.hindsholm.bank.boundary.TransactionResourceTest
+2023-03-24T11:29:54.5541434Z [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in dk.hindsholm.bank.boundary.TransactionResourceTest
+2023-03-24T11:29:54.5551563Z [INFO] Running dk.hindsholm.bank.entity.AccountTest
+2023-03-24T11:29:54.5601753Z [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in dk.hindsholm.bank.entity.AccountTest
+2023-03-24T11:29:54.8867730Z [INFO] 
+2023-03-24T11:29:54.8868251Z [INFO] Results:
+2023-03-24T11:29:54.8893313Z [INFO] 
+2023-03-24T11:29:54.8894679Z [INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+2023-03-24T11:29:54.8895162Z [INFO] 
+2023-03-24T11:29:54.8925920Z [INFO] 
+2023-03-24T11:29:54.8926832Z [INFO] --- maven-war-plugin:2.2:war (default-war) @ bank ---
+2023-03-24T11:29:54.8970237Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom
+2023-03-24T11:29:56.5886106Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom (4.5 kB at 2.7 kB/s)
+2023-03-24T11:29:56.5918810Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.pom
+2023-03-24T11:30:13.8459265Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.pom (2.8 kB at 162 B/s)
+2023-03-24T11:30:13.8482508Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom
+2023-03-24T11:30:16.4588488Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom (4.1 kB at 1.6 kB/s)
+2023-03-24T11:30:16.4605537Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/sonatype/spice/spice-parent/16/spice-parent-16.pom
+2023-03-24T11:30:18.1322213Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/sonatype/spice/spice-parent/16/spice-parent-16.pom (8.4 kB at 5.0 kB/s)
+2023-03-24T11:30:18.1344538Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/sonatype/forge/forge-parent/5/forge-parent-5.pom
+2023-03-24T11:30:35.2696230Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/sonatype/forge/forge-parent/5/forge-parent-5.pom (8.4 kB at 488 B/s)
+2023-03-24T11:30:35.2724496Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.pom
+2023-03-24T11:30:36.9513175Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.pom (1.7 kB at 1.0 kB/s)
+2023-03-24T11:30:36.9536455Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-components/1.1.19/plexus-components-1.1.19.pom
+2023-03-24T11:30:38.6240107Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-components/1.1.19/plexus-components-1.1.19.pom (2.7 kB at 1.6 kB/s)
+2023-03-24T11:30:38.6263308Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/3.0.1/plexus-3.0.1.pom
+2023-03-24T11:30:40.2841253Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/3.0.1/plexus-3.0.1.pom (19 kB at 11 kB/s)
+2023-03-24T11:30:40.2867639Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.pom
+2023-03-24T11:30:57.3414573Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.pom (1.0 kB at 59 B/s)
+2023-03-24T11:30:57.3444900Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.pom
+2023-03-24T11:30:59.0218715Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.pom (11 kB at 6.8 kB/s)
+2023-03-24T11:30:59.0232406Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/thoughtworks/xstream/xstream-parent/1.3.1/xstream-parent-1.3.1.pom
+2023-03-24T11:31:00.6966975Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/thoughtworks/xstream/xstream-parent/1.3.1/xstream-parent-1.3.1.pom (14 kB at 8.4 kB/s)
+2023-03-24T11:31:00.6989069Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.pom
+2023-03-24T11:31:02.3771479Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.pom (1.6 kB at 959 B/s)
+2023-03-24T11:31:02.3789727Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.pom
+2023-03-24T11:31:19.6560229Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.pom (4.0 kB at 233 B/s)
+2023-03-24T11:31:19.6573647Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom
+2023-03-24T11:31:21.3238300Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom (8.4 kB at 5.1 kB/s)
+2023-03-24T11:31:21.3252036Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/9/maven-parent-9.pom
+2023-03-24T11:31:22.9862141Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-parent/9/maven-parent-9.pom (33 kB at 20 kB/s)
+2023-03-24T11:31:22.9888809Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom
+2023-03-24T11:31:24.6663224Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom (5.3 kB at 3.2 kB/s)
+2023-03-24T11:31:24.6693735Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom
+2023-03-24T11:31:41.9785487Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom (9.8 kB at 566 B/s)
+2023-03-24T11:31:41.9805764Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interpolation/1.6/plexus-interpolation-1.6.pom
+2023-03-24T11:31:43.6590705Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interpolation/1.6/plexus-interpolation-1.6.pom (2.9 kB at 1.7 kB/s)
+2023-03-24T11:31:43.6626113Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar
+2023-03-24T11:31:43.6628904Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar
+2023-03-24T11:31:43.6669445Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar
+2023-03-24T11:31:43.6672756Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.jar
+2023-03-24T11:31:43.6684398Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar
+2023-03-24T11:31:45.4574939Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar (22 kB at 12 kB/s)
+2023-03-24T11:31:45.4576145Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar
+2023-03-24T11:31:45.5980036Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.jar (60 kB at 31 kB/s)
+2023-03-24T11:31:45.5981299Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
+2023-03-24T11:31:45.7755802Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar (58 kB at 28 kB/s)
+2023-03-24T11:31:45.7757183Z [INFO] Downloading from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.jar
+2023-03-24T11:31:45.9843058Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar (184 kB at 79 kB/s)
+2023-03-24T11:31:46.0213945Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar (431 kB at 183 kB/s)
+2023-03-24T11:31:46.7350560Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar (25 kB at 8.1 kB/s)
+2023-03-24T11:31:47.2393444Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar (226 kB at 63 kB/s)
+2023-03-24T11:32:02.8510802Z [INFO] Downloaded from nykredit: https://maven.tools.nykredit.it/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.jar (33 kB at 1.7 kB/s)
+2023-03-24T11:32:03.0550914Z [INFO] Packaging webapp
+2023-03-24T11:32:03.0561666Z [INFO] Assembling webapp [bank] in [/home/runner/work/nexus-test/nexus-test/target/bank]
+2023-03-24T11:32:03.0632556Z [INFO] Processing war project
+2023-03-24T11:32:03.0634642Z [INFO] Copying webapp resources [/home/runner/work/nexus-test/nexus-test/src/main/webapp]
+2023-03-24T11:32:03.0802054Z [INFO] Webapp assembled in [23 msecs]
+2023-03-24T11:32:03.0987166Z [INFO] Building war: /home/runner/work/nexus-test/nexus-test/target/bank.war
+2023-03-24T11:32:03.1996890Z [INFO] ------------------------------------------------------------------------
+2023-03-24T11:32:03.1998612Z [INFO] BUILD SUCCESS
+2023-03-24T11:32:03.2015015Z [INFO] ------------------------------------------------------------------------
+2023-03-24T11:32:03.2015876Z [INFO] Total time:  30:27 min
+2023-03-24T11:32:03.2016662Z [INFO] Finished at: 2023-03-24T11:32:03Z
+2023-03-24T11:32:03.2017255Z [INFO] ------------------------------------------------------------------------

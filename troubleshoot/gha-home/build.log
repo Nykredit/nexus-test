@@ -1,0 +1,930 @@
+2023-03-22T10:10:55.0006756Z [36;1mmvn -B package --file pom.xml[0m
+2023-03-22T10:10:55.0071403Z shell: /usr/bin/bash -e {0}
+2023-03-22T10:10:55.0071786Z env:
+2023-03-22T10:10:55.0072171Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/8.0.362-9/x64
+2023-03-22T10:10:55.0072780Z   JAVA_HOME_8_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/8.0.362-9/x64
+2023-03-22T10:10:55.0073209Z ##[endgroup]
+2023-03-22T10:10:56.6386092Z [INFO] Scanning for projects...
+2023-03-22T10:10:57.1491122Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/junit-bom/5.3.2/junit-bom-5.3.2.pom
+2023-03-22T10:10:58.5311335Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/junit-bom/5.3.2/junit-bom-5.3.2.pom (4.1 kB at 2.9 kB/s)
+2023-03-22T10:10:58.5492783Z [INFO] 
+2023-03-22T10:10:58.5494068Z [INFO] -------------------------< dk.hindsholm:bank >--------------------------
+2023-03-22T10:10:58.5494902Z [INFO] Building bank 1.0-SNAPSHOT
+2023-03-22T10:10:58.5496111Z [INFO] --------------------------------[ war ]---------------------------------
+2023-03-22T10:10:58.5559314Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/sebastian-daschner/jaxrs-analyzer-maven-plugin/0.17/jaxrs-analyzer-maven-plugin-0.17.pom
+2023-03-22T10:10:59.1176457Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/sebastian-daschner/jaxrs-analyzer-maven-plugin/0.17/jaxrs-analyzer-maven-plugin-0.17.pom (5.8 kB at 10 kB/s)
+2023-03-22T10:10:59.1328187Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/sebastian-daschner/jaxrs-analyzer-maven-plugin/0.17/jaxrs-analyzer-maven-plugin-0.17.jar
+2023-03-22T10:10:59.6706494Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/sebastian-daschner/jaxrs-analyzer-maven-plugin/0.17/jaxrs-analyzer-maven-plugin-0.17.jar (13 kB at 24 kB/s)
+2023-03-22T10:10:59.6875820Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-failsafe-plugin/2.22.0/maven-failsafe-plugin-2.22.0.pom
+2023-03-22T10:11:00.1375062Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-failsafe-plugin/2.22.0/maven-failsafe-plugin-2.22.0.pom (12 kB at 26 kB/s)
+2023-03-22T10:11:00.1478064Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire/2.22.0/surefire-2.22.0.pom
+2023-03-22T10:11:00.6012404Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire/2.22.0/surefire-2.22.0.pom (27 kB at 60 kB/s)
+2023-03-22T10:11:00.6059006Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/31/maven-parent-31.pom
+2023-03-22T10:11:01.0681252Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/31/maven-parent-31.pom (43 kB at 94 kB/s)
+2023-03-22T10:11:01.0762221Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/apache/19/apache-19.pom
+2023-03-22T10:11:01.5211804Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/apache/19/apache-19.pom (15 kB at 35 kB/s)
+2023-03-22T10:11:01.5329496Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-failsafe-plugin/2.22.0/maven-failsafe-plugin-2.22.0.jar
+2023-03-22T10:11:02.3394492Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-failsafe-plugin/2.22.0/maven-failsafe-plugin-2.22.0.jar (294 kB at 364 kB/s)
+2023-03-22T10:11:02.3517731Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+2023-03-22T10:11:02.7967245Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom (8.1 kB at 18 kB/s)
+2023-03-22T10:11:02.7998499Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+2023-03-22T10:11:03.2583317Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom (9.2 kB at 20 kB/s)
+2023-03-22T10:11:03.2613159Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/22/maven-parent-22.pom
+2023-03-22T10:11:03.7248838Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/22/maven-parent-22.pom (30 kB at 64 kB/s)
+2023-03-22T10:11:03.7274659Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/apache/11/apache-11.pom
+2023-03-22T10:11:04.1653386Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/apache/11/apache-11.pom (15 kB at 34 kB/s)
+2023-03-22T10:11:04.1707378Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+2023-03-22T10:11:04.6081481Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar (30 kB at 68 kB/s)
+2023-03-22T10:11:04.6170564Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+2023-03-22T10:11:05.0657629Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom (10 kB at 23 kB/s)
+2023-03-22T10:11:05.0686816Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+2023-03-22T10:11:05.5000554Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom (11 kB at 25 kB/s)
+2023-03-22T10:11:05.5051113Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/23/maven-parent-23.pom
+2023-03-22T10:11:05.9561012Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/23/maven-parent-23.pom (33 kB at 72 kB/s)
+2023-03-22T10:11:05.9611086Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/apache/13/apache-13.pom
+2023-03-22T10:11:06.4127708Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/apache/13/apache-13.pom (14 kB at 31 kB/s)
+2023-03-22T10:11:06.4188626Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+2023-03-22T10:11:06.8641025Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar (43 kB at 96 kB/s)
+2023-03-22T10:11:06.8699342Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-surefire-plugin/2.22.0/maven-surefire-plugin-2.22.0.pom
+2023-03-22T10:11:07.3176669Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-surefire-plugin/2.22.0/maven-surefire-plugin-2.22.0.pom (5.0 kB at 11 kB/s)
+2023-03-22T10:11:07.3287817Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-surefire-plugin/2.22.0/maven-surefire-plugin-2.22.0.jar
+2023-03-22T10:11:07.7804789Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-surefire-plugin/2.22.0/maven-surefire-plugin-2.22.0.jar (41 kB at 90 kB/s)
+2023-03-22T10:11:07.7862277Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.pom
+2023-03-22T10:11:08.2322605Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.pom (6.5 kB at 15 kB/s)
+2023-03-22T10:11:08.2347118Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+2023-03-22T10:11:08.6641737Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 kB at 30 kB/s)
+2023-03-22T10:11:08.6672055Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/21/maven-parent-21.pom
+2023-03-22T10:11:09.0990882Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/21/maven-parent-21.pom (26 kB at 61 kB/s)
+2023-03-22T10:11:09.1019200Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/apache/10/apache-10.pom
+2023-03-22T10:11:09.5477097Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/apache/10/apache-10.pom (15 kB at 33 kB/s)
+2023-03-22T10:11:09.5521464Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.jar
+2023-03-22T10:11:09.9923217Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.jar (79 kB at 179 kB/s)
+2023-03-22T10:11:10.0046020Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/javaee-api/7.0/javaee-api-7.0.pom
+2023-03-22T10:11:10.4486525Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/javaee-api/7.0/javaee-api-7.0.pom (8.6 kB at 20 kB/s)
+2023-03-22T10:11:10.4509505Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/java/jvnet-parent/3/jvnet-parent-3.pom
+2023-03-22T10:11:10.9039870Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/java/jvnet-parent/3/jvnet-parent-3.pom (4.8 kB at 11 kB/s)
+2023-03-22T10:11:10.9148507Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.pom
+2023-03-22T10:11:11.3638989Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.pom (4.3 kB at 9.5 kB/s)
+2023-03-22T10:11:11.3680269Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/sun/mail/all/1.5.0/all-1.5.0.pom
+2023-03-22T10:11:11.8280116Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/sun/mail/all/1.5.0/all-1.5.0.pom (19 kB at 42 kB/s)
+2023-03-22T10:11:11.8314808Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/java/jvnet-parent/1/jvnet-parent-1.pom
+2023-03-22T10:11:12.2646514Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/java/jvnet-parent/1/jvnet-parent-1.pom (4.7 kB at 11 kB/s)
+2023-03-22T10:11:12.2661641Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/activation/activation/1.1/activation-1.1.pom
+2023-03-22T10:11:12.7152438Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/activation/activation/1.1/activation-1.1.pom (1.1 kB at 2.4 kB/s)
+2023-03-22T10:11:12.7186609Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2.pom
+2023-03-22T10:11:13.1536192Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2.pom (2.4 kB at 5.5 kB/s)
+2023-03-22T10:11:13.1571936Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.pom
+2023-03-22T10:11:13.6085796Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.pom (1.2 kB at 2.6 kB/s)
+2023-03-22T10:11:13.6118080Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.pom
+2023-03-22T10:11:14.0341942Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.pom (1.7 kB at 4.0 kB/s)
+2023-03-22T10:11:14.0392937Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.pom
+2023-03-22T10:11:14.4794261Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.pom (2.0 kB at 4.6 kB/s)
+2023-03-22T10:11:14.4832505Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/jupiter/junit-jupiter-engine/5.3.2/junit-jupiter-engine-5.3.2.pom
+2023-03-22T10:11:14.9247185Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/jupiter/junit-jupiter-engine/5.3.2/junit-jupiter-engine-5.3.2.pom (2.4 kB at 5.4 kB/s)
+2023-03-22T10:11:14.9282819Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-engine/1.3.2/junit-platform-engine-1.3.2.pom
+2023-03-22T10:11:15.3685905Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-engine/1.3.2/junit-platform-engine-1.3.2.pom (2.4 kB at 5.4 kB/s)
+2023-03-22T10:11:15.3733013Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/jupiter/junit-jupiter-params/5.3.2/junit-jupiter-params-5.3.2.pom
+2023-03-22T10:11:15.8043234Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/jupiter/junit-jupiter-params/5.3.2/junit-jupiter-params-5.3.2.pom (2.2 kB at 5.1 kB/s)
+2023-03-22T10:11:15.8075411Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.pom
+2023-03-22T10:11:16.2570414Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.pom (18 kB at 39 kB/s)
+2023-03-22T10:11:16.2661205Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.pom
+2023-03-22T10:11:16.6806383Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.pom (10 kB at 25 kB/s)
+2023-03-22T10:11:16.6826841Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/bytebuddy/byte-buddy-parent/1.9.3/byte-buddy-parent-1.9.3.pom
+2023-03-22T10:11:17.1336624Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/bytebuddy/byte-buddy-parent/1.9.3/byte-buddy-parent-1.9.3.pom (34 kB at 76 kB/s)
+2023-03-22T10:11:17.1383963Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3.pom
+2023-03-22T10:11:17.5706514Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3.pom (6.0 kB at 14 kB/s)
+2023-03-22T10:11:17.5772529Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/objenesis/objenesis/2.6/objenesis-2.6.pom
+2023-03-22T10:11:18.0009275Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/objenesis/objenesis/2.6/objenesis-2.6.pom (2.8 kB at 6.6 kB/s)
+2023-03-22T10:11:18.0031782Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.pom
+2023-03-22T10:11:18.4436450Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.pom (17 kB at 37 kB/s)
+2023-03-22T10:11:18.4498818Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/mockito/mockito-junit-jupiter/2.23.4/mockito-junit-jupiter-2.23.4.pom
+2023-03-22T10:11:18.8939956Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/mockito/mockito-junit-jupiter/2.23.4/mockito-junit-jupiter-2.23.4.pom (17 kB at 39 kB/s)
+2023-03-22T10:11:18.8976750Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/testcontainers/junit-jupiter/1.10.3/junit-jupiter-1.10.3.pom
+2023-03-22T10:11:19.4394774Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/testcontainers/junit-jupiter/1.10.3/junit-jupiter-1.10.3.pom (1.7 kB at 3.2 kB/s)
+2023-03-22T10:11:19.4428238Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/testcontainers/testcontainers/1.10.3/testcontainers-1.10.3.pom
+2023-03-22T10:11:19.9503850Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/testcontainers/testcontainers/1.10.3/testcontainers-1.10.3.pom (3.5 kB at 6.8 kB/s)
+2023-03-22T10:11:19.9519045Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/junit/junit/4.12/junit-4.12.pom
+2023-03-22T10:11:20.3887568Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/junit/junit/4.12/junit-4.12.pom (24 kB at 54 kB/s)
+2023-03-22T10:11:20.3945863Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+2023-03-22T10:11:20.8246419Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom (766 B at 1.8 kB/s)
+2023-03-22T10:11:20.8288280Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+2023-03-22T10:11:21.2671638Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom (2.0 kB at 4.5 kB/s)
+2023-03-22T10:11:21.2701521Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom
+2023-03-22T10:11:21.7126487Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom (3.8 kB at 8.7 kB/s)
+2023-03-22T10:11:21.7173043Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom
+2023-03-22T10:11:22.1636085Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom (14 kB at 30 kB/s)
+2023-03-22T10:11:22.1686712Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/jetbrains/annotations/15.0/annotations-15.0.pom
+2023-03-22T10:11:22.5758408Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/jetbrains/annotations/15.0/annotations-15.0.pom (5.5 kB at 13 kB/s)
+2023-03-22T10:11:22.5825704Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.pom
+2023-03-22T10:11:23.0165366Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.pom (14 kB at 32 kB/s)
+2023-03-22T10:11:23.0203214Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/commons/commons-compress/1.18/commons-compress-1.18.pom
+2023-03-22T10:11:23.4570017Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/commons/commons-compress/1.18/commons-compress-1.18.pom (18 kB at 42 kB/s)
+2023-03-22T10:11:23.4615241Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/commons/commons-parent/47/commons-parent-47.pom
+2023-03-22T10:11:23.9202366Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/commons/commons-parent/47/commons-parent-47.pom (78 kB at 169 kB/s)
+2023-03-22T10:11:23.9298643Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.pom
+2023-03-22T10:11:24.3665364Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.pom (23 kB at 53 kB/s)
+2023-03-22T10:11:24.3705673Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/xml/bind/jaxb-api-parent/2.3.0/jaxb-api-parent-2.3.0.pom
+2023-03-22T10:11:24.7864335Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/xml/bind/jaxb-api-parent/2.3.0/jaxb-api-parent-2.3.0.pom (5.6 kB at 14 kB/s)
+2023-03-22T10:11:24.7894649Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/java/jvnet-parent/5/jvnet-parent-5.pom
+2023-03-22T10:11:25.2330060Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/java/jvnet-parent/5/jvnet-parent-5.pom (8.9 kB at 20 kB/s)
+2023-03-22T10:11:25.2397952Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/rnorth/duct-tape/duct-tape/1.0.7/duct-tape-1.0.7.pom
+2023-03-22T10:11:25.6922856Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/rnorth/duct-tape/duct-tape/1.0.7/duct-tape-1.0.7.pom (6.0 kB at 13 kB/s)
+2023-03-22T10:11:25.6958788Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/rnorth/visible-assertions/visible-assertions/2.1.1/visible-assertions-2.1.1.pom
+2023-03-22T10:11:26.2202020Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/rnorth/visible-assertions/visible-assertions/2.1.1/visible-assertions-2.1.1.pom (6.6 kB at 13 kB/s)
+2023-03-22T10:11:26.2234328Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/java/dev/jna/jna/4.5.1/jna-4.5.1.pom
+2023-03-22T10:11:26.6344656Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/java/dev/jna/jna/4.5.1/jna-4.5.1.pom (1.6 kB at 3.8 kB/s)
+2023-03-22T10:11:26.6381037Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/rnorth/tcp-unix-socket-proxy/1.0.2/tcp-unix-socket-proxy-1.0.2.pom
+2023-03-22T10:11:27.0872962Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/rnorth/tcp-unix-socket-proxy/1.0.2/tcp-unix-socket-proxy-1.0.2.pom (4.7 kB at 11 kB/s)
+2023-03-22T10:11:27.0891949Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/kohlschutter/junixsocket/junixsocket-native-common/2.0.4/junixsocket-native-common-2.0.4.pom
+2023-03-22T10:11:27.5383665Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/kohlschutter/junixsocket/junixsocket-native-common/2.0.4/junixsocket-native-common-2.0.4.pom (3.8 kB at 8.5 kB/s)
+2023-03-22T10:11:27.5386346Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/kohlschutter/junixsocket/junixsocket-parent/2.0.4/junixsocket-parent-2.0.4.pom
+2023-03-22T10:11:27.9838868Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/kohlschutter/junixsocket/junixsocket-parent/2.0.4/junixsocket-parent-2.0.4.pom (3.9 kB at 8.6 kB/s)
+2023-03-22T10:11:27.9856810Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/kohlschutter/kohlschutter-parent/1.1/kohlschutter-parent-1.1.pom
+2023-03-22T10:11:28.4228988Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/kohlschutter/kohlschutter-parent/1.1/kohlschutter-parent-1.1.pom (18 kB at 42 kB/s)
+2023-03-22T10:11:28.4264838Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/kohlschutter/junixsocket/junixsocket-common/2.0.4/junixsocket-common-2.0.4.pom
+2023-03-22T10:11:28.9119480Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/kohlschutter/junixsocket/junixsocket-common/2.0.4/junixsocket-common-2.0.4.pom (1.4 kB at 2.9 kB/s)
+2023-03-22T10:11:28.9164519Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/scijava/native-lib-loader/2.0.2/native-lib-loader-2.0.2.pom
+2023-03-22T10:11:29.3520715Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/scijava/native-lib-loader/2.0.2/native-lib-loader-2.0.2.pom (2.6 kB at 5.9 kB/s)
+2023-03-22T10:11:29.3545469Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/scijava/pom-scijava/3.1/pom-scijava-3.1.pom
+2023-03-22T10:11:29.8021932Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/scijava/pom-scijava/3.1/pom-scijava-3.1.pom (41 kB at 92 kB/s)
+2023-03-22T10:11:29.8088660Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.pom
+2023-03-22T10:11:30.2472559Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.pom (2.8 kB at 6.3 kB/s)
+2023-03-22T10:11:30.2482611Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-parent/1.7.21/slf4j-parent-1.7.21.pom
+2023-03-22T10:11:30.6782637Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-parent/1.7.21/slf4j-parent-1.7.21.pom (14 kB at 31 kB/s)
+2023-03-22T10:11:30.6828475Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.pom
+2023-03-22T10:11:31.1224497Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.pom (1.8 kB at 4.1 kB/s)
+2023-03-22T10:11:31.1267088Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/javax.json/1.1.2/javax.json-1.1.2.pom
+2023-03-22T10:11:31.5624264Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/javax.json/1.1.2/javax.json-1.1.2.pom (7.8 kB at 18 kB/s)
+2023-03-22T10:11:31.5650751Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/json/1.1.2/json-1.1.2.pom
+2023-03-22T10:11:32.0758226Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/json/1.1.2/json-1.1.2.pom (18 kB at 36 kB/s)
+2023-03-22T10:11:32.0793214Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/json/javax.json-api/1.1.2/javax.json-api-1.1.2.pom
+2023-03-22T10:11:32.5195417Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/json/javax.json-api/1.1.2/javax.json-api-1.1.2.pom (6.7 kB at 15 kB/s)
+2023-03-22T10:11:32.5221182Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/core/jersey-client/2.26/jersey-client-2.26.pom
+2023-03-22T10:11:32.9497938Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/core/jersey-client/2.26/jersey-client-2.26.pom (7.4 kB at 17 kB/s)
+2023-03-22T10:11:32.9517993Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/project/2.26/project-2.26.pom
+2023-03-22T10:11:33.4038823Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/project/2.26/project-2.26.pom (86 kB at 190 kB/s)
+2023-03-22T10:11:33.4203509Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/java/jvnet-parent/4/jvnet-parent-4.pom
+2023-03-22T10:11:33.8598416Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/java/jvnet-parent/4/jvnet-parent-4.pom (7.8 kB at 18 kB/s)
+2023-03-22T10:11:33.8650198Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/hk2-bom/2.5.0-b42/hk2-bom-2.5.0-b42.pom
+2023-03-22T10:11:34.3003735Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/hk2-bom/2.5.0-b42/hk2-bom-2.5.0-b42.pom (16 kB at 38 kB/s)
+2023-03-22T10:11:34.3069933Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.pom
+2023-03-22T10:11:34.7529675Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.pom (30 kB at 68 kB/s)
+2023-03-22T10:11:34.7570478Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/core/jersey-common/2.26/jersey-common-2.26.pom
+2023-03-22T10:11:35.1858795Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/core/jersey-common/2.26/jersey-common-2.26.pom (9.8 kB at 23 kB/s)
+2023-03-22T10:11:35.1922935Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom
+2023-03-22T10:11:35.6363584Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom (13 kB at 30 kB/s)
+2023-03-22T10:11:35.6405062Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/external/javax.inject/2.5.0-b42/javax.inject-2.5.0-b42.pom
+2023-03-22T10:11:36.0579780Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/external/javax.inject/2.5.0-b42/javax.inject-2.5.0-b42.pom (6.5 kB at 16 kB/s)
+2023-03-22T10:11:36.0602248Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/external/2.5.0-b42/external-2.5.0-b42.pom
+2023-03-22T10:11:36.4930121Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/external/2.5.0-b42/external-2.5.0-b42.pom (2.8 kB at 6.6 kB/s)
+2023-03-22T10:11:36.4946966Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/hk2-parent/2.5.0-b42/hk2-parent-2.5.0-b42.pom
+2023-03-22T10:11:36.9423361Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/hk2-parent/2.5.0-b42/hk2-parent-2.5.0-b42.pom (42 kB at 95 kB/s)
+2023-03-22T10:11:36.9528183Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.pom
+2023-03-22T10:11:37.3877112Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.pom (6.2 kB at 14 kB/s)
+2023-03-22T10:11:37.3890872Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/pom/8/pom-8.pom
+2023-03-22T10:11:37.8319436Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/pom/8/pom-8.pom (11 kB at 24 kB/s)
+2023-03-22T10:11:37.8353226Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/inject/jersey-hk2/2.26/jersey-hk2-2.26.pom
+2023-03-22T10:11:38.2699761Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/inject/jersey-hk2/2.26/jersey-hk2-2.26.pom (5.2 kB at 12 kB/s)
+2023-03-22T10:11:38.2718976Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/inject/project/2.26/project-2.26.pom
+2023-03-22T10:11:38.7090211Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/inject/project/2.26/project-2.26.pom (2.7 kB at 6.2 kB/s)
+2023-03-22T10:11:38.7129468Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/hk2-locator/2.5.0-b42/hk2-locator-2.5.0-b42.pom
+2023-03-22T10:11:39.1650141Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/hk2-locator/2.5.0-b42/hk2-locator-2.5.0-b42.pom (7.9 kB at 17 kB/s)
+2023-03-22T10:11:39.1743235Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/external/aopalliance-repackaged/2.5.0-b42/aopalliance-repackaged-2.5.0-b42.pom
+2023-03-22T10:11:39.6121201Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/external/aopalliance-repackaged/2.5.0-b42/aopalliance-repackaged-2.5.0-b42.pom (6.8 kB at 15 kB/s)
+2023-03-22T10:11:39.6160592Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/hk2-api/2.5.0-b42/hk2-api-2.5.0-b42.pom
+2023-03-22T10:11:40.0401023Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/hk2-api/2.5.0-b42/hk2-api-2.5.0-b42.pom (4.6 kB at 11 kB/s)
+2023-03-22T10:11:40.0439710Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/inject/javax.inject/1/javax.inject-1.pom
+2023-03-22T10:11:40.4606014Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/inject/javax.inject/1/javax.inject-1.pom (612 B at 1.5 kB/s)
+2023-03-22T10:11:40.4644655Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/hk2-utils/2.5.0-b42/hk2-utils-2.5.0-b42.pom
+2023-03-22T10:11:40.8877619Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/hk2-utils/2.5.0-b42/hk2-utils-2.5.0-b42.pom (6.9 kB at 16 kB/s)
+2023-03-22T10:11:40.8938373Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/javassist/javassist/3.22.0-CR2/javassist-3.22.0-CR2.pom
+2023-03-22T10:11:41.3319654Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/javassist/javassist/3.22.0-CR2/javassist-3.22.0-CR2.pom (10 kB at 23 kB/s)
+2023-03-22T10:11:41.3372633Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/media/jersey-media-json-jackson/2.26/jersey-media-json-jackson-2.26.pom
+2023-03-22T10:11:41.7758022Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/media/jersey-media-json-jackson/2.26/jersey-media-json-jackson-2.26.pom (5.1 kB at 12 kB/s)
+2023-03-22T10:11:41.7800808Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/media/project/2.26/project-2.26.pom
+2023-03-22T10:11:42.1918895Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/media/project/2.26/project-2.26.pom (3.3 kB at 7.9 kB/s)
+2023-03-22T10:11:42.1974781Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/ext/jersey-entity-filtering/2.26/jersey-entity-filtering-2.26.pom
+2023-03-22T10:11:42.6152556Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/ext/jersey-entity-filtering/2.26/jersey-entity-filtering-2.26.pom (4.5 kB at 11 kB/s)
+2023-03-22T10:11:42.6177471Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/ext/project/2.26/project-2.26.pom
+2023-03-22T10:11:43.0499293Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/ext/project/2.26/project-2.26.pom (4.0 kB at 9.3 kB/s)
+2023-03-22T10:11:43.0542107Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.pom
+2023-03-22T10:11:43.4917582Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.pom (1.8 kB at 4.2 kB/s)
+2023-03-22T10:11:43.4939955Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom
+2023-03-22T10:11:43.9296302Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom (8.0 kB at 18 kB/s)
+2023-03-22T10:11:43.9316576Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/oss-parent/27/oss-parent-27.pom
+2023-03-22T10:11:44.3608274Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/oss-parent/27/oss-parent-27.pom (20 kB at 46 kB/s)
+2023-03-22T10:11:44.3654664Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.pom
+2023-03-22T10:11:44.7962517Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.pom (5.4 kB at 13 kB/s)
+2023-03-22T10:11:44.8003348Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.pom
+2023-03-22T10:11:45.2151254Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.pom (1.8 kB at 4.5 kB/s)
+2023-03-22T10:11:45.2186690Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.pom
+2023-03-22T10:11:45.6266968Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.pom (5.4 kB at 13 kB/s)
+2023-03-22T10:11:45.6303307Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.4/jackson-module-jaxb-annotations-2.8.4.pom
+2023-03-22T10:11:46.0507096Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.4/jackson-module-jaxb-annotations-2.8.4.pom (3.6 kB at 8.6 kB/s)
+2023-03-22T10:11:46.0559374Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-jdk14/1.7.25/slf4j-jdk14-1.7.25.pom
+2023-03-22T10:11:46.4647279Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-jdk14/1.7.25/slf4j-jdk14-1.7.25.pom (1.0 kB at 2.5 kB/s)
+2023-03-22T10:11:46.4885430Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/javaee-api/7.0/javaee-api-7.0.jar
+2023-03-22T10:11:46.4892962Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar
+2023-03-22T10:11:46.4944507Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2.jar
+2023-03-22T10:11:46.4952737Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/activation/activation/1.1/activation-1.1.jar
+2023-03-22T10:11:46.4967199Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar
+2023-03-22T10:11:47.2819490Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar (2.2 kB at 2.7 kB/s)
+2023-03-22T10:11:47.2821848Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar
+2023-03-22T10:11:47.3213061Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/javaee-api/7.0/javaee-api-7.0.jar (1.9 MB at 2.3 MB/s)
+2023-03-22T10:11:47.3218210Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.jar
+2023-03-22T10:11:47.6191618Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/activation/activation/1.1/activation-1.1.jar (63 kB at 56 kB/s)
+2023-03-22T10:11:47.6194263Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/jupiter/junit-jupiter-engine/5.3.2/junit-jupiter-engine-5.3.2.jar
+2023-03-22T10:11:47.6823548Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar (7.1 kB at 6.0 kB/s)
+2023-03-22T10:11:47.6825298Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-engine/1.3.2/junit-platform-engine-1.3.2.jar
+2023-03-22T10:11:47.7377689Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.jar (78 kB at 63 kB/s)
+2023-03-22T10:11:47.7380359Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/jupiter/junit-jupiter-params/5.3.2/junit-jupiter-params-5.3.2.jar
+2023-03-22T10:11:47.8467208Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2.jar (115 kB at 85 kB/s)
+2023-03-22T10:11:47.8468503Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar
+2023-03-22T10:11:48.1166943Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar (522 kB at 321 kB/s)
+2023-03-22T10:11:48.1168215Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.jar
+2023-03-22T10:11:48.2254740Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/jupiter/junit-jupiter-engine/5.3.2/junit-jupiter-engine-5.3.2.jar (150 kB at 87 kB/s)
+2023-03-22T10:11:48.2256342Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3.jar
+2023-03-22T10:11:48.2278306Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/jupiter/junit-jupiter-params/5.3.2/junit-jupiter-params-5.3.2.jar (501 kB at 290 kB/s)
+2023-03-22T10:11:48.2283583Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/objenesis/objenesis/2.6/objenesis-2.6.jar
+2023-03-22T10:11:48.5656184Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-engine/1.3.2/junit-platform-engine-1.3.2.jar (138 kB at 67 kB/s)
+2023-03-22T10:11:48.5660172Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/mockito/mockito-junit-jupiter/2.23.4/mockito-junit-jupiter-2.23.4.jar
+2023-03-22T10:11:48.5970666Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar (565 kB at 269 kB/s)
+2023-03-22T10:11:48.5973829Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/testcontainers/junit-jupiter/1.10.3/junit-jupiter-1.10.3.jar
+2023-03-22T10:11:48.6218843Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3.jar (43 kB at 20 kB/s)
+2023-03-22T10:11:48.6220243Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/testcontainers/testcontainers/1.10.3/testcontainers-1.10.3.jar
+2023-03-22T10:11:48.6301958Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/objenesis/objenesis/2.6/objenesis-2.6.jar (56 kB at 26 kB/s)
+2023-03-22T10:11:48.6302935Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/junit/junit/4.12/junit-4.12.jar
+2023-03-22T10:11:48.9978526Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/mockito/mockito-junit-jupiter/2.23.4/mockito-junit-jupiter-2.23.4.jar (4.7 kB at 1.9 kB/s)
+2023-03-22T10:11:48.9979954Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2023-03-22T10:11:49.0177599Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.jar (3.2 MB at 1.3 MB/s)
+2023-03-22T10:11:49.0188260Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/jetbrains/annotations/15.0/annotations-15.0.jar
+2023-03-22T10:11:49.1017494Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/testcontainers/junit-jupiter/1.10.3/junit-jupiter-1.10.3.jar (6.7 kB at 2.6 kB/s)
+2023-03-22T10:11:49.1019638Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+2023-03-22T10:11:49.1448493Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/junit/junit/4.12/junit-4.12.jar (315 kB at 119 kB/s)
+2023-03-22T10:11:49.1455416Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar
+2023-03-22T10:11:49.4315280Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar (45 kB at 15 kB/s)
+2023-03-22T10:11:49.4316480Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar
+2023-03-22T10:11:49.4647173Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/jetbrains/annotations/15.0/annotations-15.0.jar (19 kB at 6.3 kB/s)
+2023-03-22T10:11:49.4650119Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/rnorth/duct-tape/duct-tape/1.0.7/duct-tape-1.0.7.jar
+2023-03-22T10:11:49.5288485Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar (27 kB at 8.7 kB/s)
+2023-03-22T10:11:49.5289668Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/rnorth/visible-assertions/visible-assertions/2.1.1/visible-assertions-2.1.1.jar
+2023-03-22T10:11:49.7447370Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar (592 kB at 182 kB/s)
+2023-03-22T10:11:49.7449625Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/java/dev/jna/jna/4.5.1/jna-4.5.1.jar
+2023-03-22T10:11:49.9164165Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar (126 kB at 37 kB/s)
+2023-03-22T10:11:49.9168270Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/rnorth/tcp-unix-socket-proxy/1.0.2/tcp-unix-socket-proxy-1.0.2.jar
+2023-03-22T10:11:50.0909011Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/rnorth/duct-tape/duct-tape/1.0.7/duct-tape-1.0.7.jar (25 kB at 6.9 kB/s)
+2023-03-22T10:11:50.0910117Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/kohlschutter/junixsocket/junixsocket-native-common/2.0.4/junixsocket-native-common-2.0.4.jar
+2023-03-22T10:11:50.1047660Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/rnorth/visible-assertions/visible-assertions/2.1.1/visible-assertions-2.1.1.jar (12 kB at 3.2 kB/s)
+2023-03-22T10:11:50.1049276Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/scijava/native-lib-loader/2.0.2/native-lib-loader-2.0.2.jar
+2023-03-22T10:11:50.4845010Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/rnorth/tcp-unix-socket-proxy/1.0.2/tcp-unix-socket-proxy-1.0.2.jar (7.2 kB at 1.8 kB/s)
+2023-03-22T10:11:50.4846493Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/kohlschutter/junixsocket/junixsocket-common/2.0.4/junixsocket-common-2.0.4.jar
+2023-03-22T10:11:50.6893636Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/kohlschutter/junixsocket/junixsocket-native-common/2.0.4/junixsocket-native-common-2.0.4.jar (28 kB at 6.6 kB/s)
+2023-03-22T10:11:50.6895338Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar
+2023-03-22T10:11:50.8592604Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/scijava/native-lib-loader/2.0.2/native-lib-loader-2.0.2.jar (17 kB at 3.9 kB/s)
+2023-03-22T10:11:50.8593805Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/javax.json/1.1.2/javax.json-1.1.2.jar
+2023-03-22T10:11:50.8779794Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/java/dev/jna/jna/4.5.1/jna-4.5.1.jar (1.4 MB at 329 kB/s)
+2023-03-22T10:11:50.8781868Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/json/javax.json-api/1.1.2/javax.json-api-1.1.2.jar
+2023-03-22T10:11:51.0698587Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/kohlschutter/junixsocket/junixsocket-common/2.0.4/junixsocket-common-2.0.4.jar (18 kB at 4.0 kB/s)
+2023-03-22T10:11:51.0699922Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/core/jersey-client/2.26/jersey-client-2.26.jar
+2023-03-22T10:11:51.5154559Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/json/javax.json-api/1.1.2/javax.json-api-1.1.2.jar (31 kB at 6.2 kB/s)
+2023-03-22T10:11:51.5205743Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar
+2023-03-22T10:11:51.5207437Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/javax.json/1.1.2/javax.json-1.1.2.jar (101 kB at 20 kB/s)
+2023-03-22T10:11:51.5209342Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/core/jersey-common/2.26/jersey-common-2.26.jar
+2023-03-22T10:11:51.9203205Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/core/jersey-client/2.26/jersey-client-2.26.jar (181 kB at 33 kB/s)
+2023-03-22T10:11:51.9204825Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar
+2023-03-22T10:11:52.2406906Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar (128 kB at 22 kB/s)
+2023-03-22T10:11:52.2408301Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/external/javax.inject/2.5.0-b42/javax.inject-2.5.0-b42.jar
+2023-03-22T10:11:52.4668239Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/net/java/dev/jna/jna-platform/4.5.1/jna-platform-4.5.1.jar (2.3 MB at 390 kB/s)
+2023-03-22T10:11:52.4669607Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/inject/jersey-hk2/2.26/jersey-hk2-2.26.jar
+2023-03-22T10:11:52.5593787Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar (20 kB at 3.3 kB/s)
+2023-03-22T10:11:52.5606646Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/hk2-locator/2.5.0-b42/hk2-locator-2.5.0-b42.jar
+2023-03-22T10:11:52.7906409Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/external/javax.inject/2.5.0-b42/javax.inject-2.5.0-b42.jar (6.0 kB at 945 B/s)
+2023-03-22T10:11:52.7908906Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/external/aopalliance-repackaged/2.5.0-b42/aopalliance-repackaged-2.5.0-b42.jar
+2023-03-22T10:11:52.8290613Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/core/jersey-common/2.26/jersey-common-2.26.jar (1.1 MB at 178 kB/s)
+2023-03-22T10:11:52.8293669Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/hk2-api/2.5.0-b42/hk2-api-2.5.0-b42.jar
+2023-03-22T10:11:52.9727628Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/inject/jersey-hk2/2.26/jersey-hk2-2.26.jar (62 kB at 9.6 kB/s)
+2023-03-22T10:11:52.9730571Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/inject/javax.inject/1/javax.inject-1.jar
+2023-03-22T10:11:53.1836590Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/hk2-locator/2.5.0-b42/hk2-locator-2.5.0-b42.jar (189 kB at 28 kB/s)
+2023-03-22T10:11:53.1838131Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/hk2-utils/2.5.0-b42/hk2-utils-2.5.0-b42.jar
+2023-03-22T10:11:53.2379067Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/external/aopalliance-repackaged/2.5.0-b42/aopalliance-repackaged-2.5.0-b42.jar (15 kB at 2.2 kB/s)
+2023-03-22T10:11:53.2381441Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/javassist/javassist/3.22.0-CR2/javassist-3.22.0-CR2.jar
+2023-03-22T10:11:53.3073343Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/hk2-api/2.5.0-b42/hk2-api-2.5.0-b42.jar (187 kB at 27 kB/s)
+2023-03-22T10:11:53.3077370Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/media/jersey-media-json-jackson/2.26/jersey-media-json-jackson-2.26.jar
+2023-03-22T10:11:53.4085215Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/javax/inject/javax.inject/1/javax.inject-1.jar (2.5 kB at 361 B/s)
+2023-03-22T10:11:53.4117132Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/ext/jersey-entity-filtering/2.26/jersey-entity-filtering-2.26.jar
+2023-03-22T10:11:53.6796981Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/hk2/hk2-utils/2.5.0-b42/hk2-utils-2.5.0-b42.jar (135 kB at 19 kB/s)
+2023-03-22T10:11:53.6798482Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar
+2023-03-22T10:11:53.8072953Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/media/jersey-media-json-jackson/2.26/jersey-media-json-jackson-2.26.jar (61 kB at 8.3 kB/s)
+2023-03-22T10:11:53.8074448Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar
+2023-03-22T10:11:53.8876575Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/glassfish/jersey/ext/jersey-entity-filtering/2.26/jersey-entity-filtering-2.26.jar (70 kB at 9.4 kB/s)
+2023-03-22T10:11:53.8878046Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar
+2023-03-22T10:11:53.9121058Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/javassist/javassist/3.22.0-CR2/javassist-3.22.0-CR2.jar (738 kB at 100 kB/s)
+2023-03-22T10:11:53.9122601Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.4/jackson-module-jaxb-annotations-2.8.4.jar
+2023-03-22T10:11:54.1296742Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar (56 kB at 7.3 kB/s)
+2023-03-22T10:11:54.1298122Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-jdk14/1.7.25/slf4j-jdk14-1.7.25.jar
+2023-03-22T10:11:54.3379820Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/testcontainers/testcontainers/1.10.3/testcontainers-1.10.3.jar (17 MB at 2.2 MB/s)
+2023-03-22T10:11:54.3381691Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+2023-03-22T10:11:54.3681527Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar (281 kB at 36 kB/s)
+2023-03-22T10:11:54.3800576Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.4/jackson-module-jaxb-annotations-2.8.4.jar (35 kB at 4.4 kB/s)
+2023-03-22T10:11:54.4449570Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar (1.2 MB at 155 kB/s)
+2023-03-22T10:11:54.5112673Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-jdk14/1.7.25/slf4j-jdk14-1.7.25.jar (8.5 kB at 1.1 kB/s)
+2023-03-22T10:11:54.7558603Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar (41 kB at 5.0 kB/s)
+2023-03-22T10:11:54.7741527Z [INFO] 
+2023-03-22T10:11:54.7746386Z [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ bank ---
+2023-03-22T10:11:54.7804168Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.pom
+2023-03-22T10:11:55.2031175Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.pom (1.5 kB at 3.4 kB/s)
+2023-03-22T10:11:55.2053894Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven/2.0.6/maven-2.0.6.pom
+2023-03-22T10:11:55.6465175Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven/2.0.6/maven-2.0.6.pom (9.0 kB at 21 kB/s)
+2023-03-22T10:11:55.6489884Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/5/maven-parent-5.pom
+2023-03-22T10:11:56.0717679Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/5/maven-parent-5.pom (15 kB at 36 kB/s)
+2023-03-22T10:11:56.0737948Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/apache/3/apache-3.pom
+2023-03-22T10:11:56.5052231Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/apache/3/apache-3.pom (3.4 kB at 8.0 kB/s)
+2023-03-22T10:11:56.5087191Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.pom
+2023-03-22T10:11:56.9500198Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.pom (2.6 kB at 6.0 kB/s)
+2023-03-22T10:11:56.9528519Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.pom
+2023-03-22T10:11:57.3828334Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.pom (2.0 kB at 4.7 kB/s)
+2023-03-22T10:11:57.3862180Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.pom
+2023-03-22T10:11:57.8080438Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.pom (3.0 kB at 7.2 kB/s)
+2023-03-22T10:11:57.8127131Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom
+2023-03-22T10:11:58.2469109Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom (1.9 kB at 4.4 kB/s)
+2023-03-22T10:11:58.2489964Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/1.0.11/plexus-1.0.11.pom
+2023-03-22T10:11:58.6531611Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/1.0.11/plexus-1.0.11.pom (9.0 kB at 22 kB/s)
+2023-03-22T10:11:58.6565415Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.pom
+2023-03-22T10:11:59.0801997Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.pom (3.9 kB at 9.3 kB/s)
+2023-03-22T10:11:59.0826416Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-containers/1.0.3/plexus-containers-1.0.3.pom
+2023-03-22T10:11:59.5082265Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-containers/1.0.3/plexus-containers-1.0.3.pom (492 B at 1.2 kB/s)
+2023-03-22T10:11:59.5083525Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/1.0.4/plexus-1.0.4.pom
+2023-03-22T10:11:59.9389181Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/1.0.4/plexus-1.0.4.pom (5.7 kB at 13 kB/s)
+2023-03-22T10:11:59.9417367Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/junit/junit/3.8.1/junit-3.8.1.pom
+2023-03-22T10:12:00.3645677Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/junit/junit/3.8.1/junit-3.8.1.pom (998 B at 2.4 kB/s)
+2023-03-22T10:12:00.3665314Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom
+2023-03-22T10:12:00.7971517Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom (6.9 kB at 16 kB/s)
+2023-03-22T10:12:00.8002813Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom
+2023-03-22T10:12:01.2285347Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom (3.1 kB at 7.3 kB/s)
+2023-03-22T10:12:01.2305970Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.pom
+2023-03-22T10:12:01.6498003Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.pom (2.0 kB at 4.7 kB/s)
+2023-03-22T10:12:01.6531851Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.pom
+2023-03-22T10:12:02.0833351Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.pom (2.6 kB at 6.1 kB/s)
+2023-03-22T10:12:02.0868453Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.pom
+2023-03-22T10:12:02.4993976Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.pom (1.9 kB at 4.5 kB/s)
+2023-03-22T10:12:02.5022722Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.pom
+2023-03-22T10:12:02.9133174Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.pom (1.6 kB at 3.8 kB/s)
+2023-03-22T10:12:02.9170960Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.pom
+2023-03-22T10:12:03.3473384Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.pom (1.9 kB at 4.5 kB/s)
+2023-03-22T10:12:03.3515335Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.pom
+2023-03-22T10:12:03.7788294Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.pom (6.7 kB at 16 kB/s)
+2023-03-22T10:12:03.7823437Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.pom
+2023-03-22T10:12:04.2091375Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.pom (1.9 kB at 4.5 kB/s)
+2023-03-22T10:12:04.2123830Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.pom
+2023-03-22T10:12:04.6274519Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.pom (1.8 kB at 4.2 kB/s)
+2023-03-22T10:12:04.6300832Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/reporting/maven-reporting/2.0.6/maven-reporting-2.0.6.pom
+2023-03-22T10:12:05.0580936Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/reporting/maven-reporting/2.0.6/maven-reporting-2.0.6.pom (1.4 kB at 3.4 kB/s)
+2023-03-22T10:12:05.0614035Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom
+2023-03-22T10:12:05.4601549Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom (424 B at 1.1 kB/s)
+2023-03-22T10:12:05.4625055Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom
+2023-03-22T10:12:05.8839215Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom (3.9 kB at 9.3 kB/s)
+2023-03-22T10:12:05.8903778Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.pom
+2023-03-22T10:12:06.3178984Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.pom (1.7 kB at 4.0 kB/s)
+2023-03-22T10:12:06.3214936Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/commons-cli/commons-cli/1.0/commons-cli-1.0.pom
+2023-03-22T10:12:06.7510913Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/commons-cli/commons-cli/1.0/commons-cli-1.0.pom (2.1 kB at 4.9 kB/s)
+2023-03-22T10:12:06.7539266Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.pom
+2023-03-22T10:12:07.1766004Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.pom (2.0 kB at 4.8 kB/s)
+2023-03-22T10:12:07.1816061Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.pom
+2023-03-22T10:12:07.5999726Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.pom (7.1 kB at 17 kB/s)
+2023-03-22T10:12:07.6026566Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.pom
+2023-03-22T10:12:08.0486845Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.pom (1.3 kB at 2.9 kB/s)
+2023-03-22T10:12:08.0489290Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/classworlds/classworlds/1.1/classworlds-1.1.pom
+2023-03-22T10:12:08.4440997Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/classworlds/classworlds/1.1/classworlds-1.1.pom (3.3 kB at 8.3 kB/s)
+2023-03-22T10:12:08.4479032Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom
+2023-03-22T10:12:08.8641341Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom (3.3 kB at 8.0 kB/s)
+2023-03-22T10:12:08.8661500Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom
+2023-03-22T10:12:09.2909735Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom (17 kB at 39 kB/s)
+2023-03-22T10:12:09.2940298Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom
+2023-03-22T10:12:09.7291286Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom (5.8 kB at 13 kB/s)
+2023-03-22T10:12:09.7309168Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom
+2023-03-22T10:12:10.1606081Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom (8.7 kB at 20 kB/s)
+2023-03-22T10:12:10.1647256Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.pom
+2023-03-22T10:12:10.5826692Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.pom (6.8 kB at 16 kB/s)
+2023-03-22T10:12:10.5847702Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/2.0.2/plexus-2.0.2.pom
+2023-03-22T10:12:11.0019711Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/2.0.2/plexus-2.0.2.pom (12 kB at 28 kB/s)
+2023-03-22T10:12:11.0048053Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.12/plexus-interpolation-1.12.pom
+2023-03-22T10:12:11.4393583Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.12/plexus-interpolation-1.12.pom (889 B at 2.0 kB/s)
+2023-03-22T10:12:11.4414468Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-components/1.1.14/plexus-components-1.1.14.pom
+2023-03-22T10:12:11.8710440Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-components/1.1.14/plexus-components-1.1.14.pom (5.8 kB at 14 kB/s)
+2023-03-22T10:12:11.8752040Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.pom
+2023-03-22T10:12:12.2868166Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.pom (2.9 kB at 6.9 kB/s)
+2023-03-22T10:12:12.2885652Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/spice/spice-parent/10/spice-parent-10.pom
+2023-03-22T10:12:12.7240237Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/spice/spice-parent/10/spice-parent-10.pom (3.0 kB at 6.9 kB/s)
+2023-03-22T10:12:12.7252343Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/forge/forge-parent/3/forge-parent-3.pom
+2023-03-22T10:12:13.1591003Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/forge/forge-parent/3/forge-parent-3.pom (5.0 kB at 12 kB/s)
+2023-03-22T10:12:13.1620630Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.pom
+2023-03-22T10:12:13.5877001Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.pom (8.1 kB at 19 kB/s)
+2023-03-22T10:12:13.5912363Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.pom
+2023-03-22T10:12:14.0229144Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.pom (890 B at 2.1 kB/s)
+2023-03-22T10:12:14.0248490Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom
+2023-03-22T10:12:14.4435671Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom (2.8 kB at 6.8 kB/s)
+2023-03-22T10:12:14.4473958Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/2.0.3/plexus-2.0.3.pom
+2023-03-22T10:12:14.8793302Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/2.0.3/plexus-2.0.3.pom (15 kB at 36 kB/s)
+2023-03-22T10:12:14.8883757Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar
+2023-03-22T10:12:14.8885365Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar
+2023-03-22T10:12:14.8886270Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar
+2023-03-22T10:12:14.8901619Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar
+2023-03-22T10:12:14.8914508Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar
+2023-03-22T10:12:15.3122209Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar (13 kB at 30 kB/s)
+2023-03-22T10:12:15.3162339Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.jar
+2023-03-22T10:12:15.4986139Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar (35 kB at 58 kB/s)
+2023-03-22T10:12:15.4987328Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.jar
+2023-03-22T10:12:15.4999634Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar (29 kB at 47 kB/s)
+2023-03-22T10:12:15.5001729Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.jar
+2023-03-22T10:12:15.6480484Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar (57 kB at 74 kB/s)
+2023-03-22T10:12:15.6482052Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar
+2023-03-22T10:12:15.7269180Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.jar (152 kB at 181 kB/s)
+2023-03-22T10:12:15.7271291Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar
+2023-03-22T10:12:15.7682477Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar (116 kB at 132 kB/s)
+2023-03-22T10:12:15.7683762Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.jar
+2023-03-22T10:12:15.8876401Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.jar (21 kB at 21 kB/s)
+2023-03-22T10:12:15.8877496Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/commons-cli/commons-cli/1.0/commons-cli-1.0.jar
+2023-03-22T10:12:15.9351862Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.jar (9.9 kB at 9.5 kB/s)
+2023-03-22T10:12:15.9353094Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar
+2023-03-22T10:12:16.0303459Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar (5.9 kB at 5.2 kB/s)
+2023-03-22T10:12:16.0305210Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar
+2023-03-22T10:12:16.1180579Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar (24 kB at 20 kB/s)
+2023-03-22T10:12:16.1182020Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/classworlds/classworlds/1.1/classworlds-1.1.jar
+2023-03-22T10:12:16.1568220Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.jar (14 kB at 11 kB/s)
+2023-03-22T10:12:16.1569443Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar
+2023-03-22T10:12:16.2806595Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/commons-cli/commons-cli/1.0/commons-cli-1.0.jar (30 kB at 22 kB/s)
+2023-03-22T10:12:16.2807556Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar
+2023-03-22T10:12:16.4173135Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar (13 kB at 8.8 kB/s)
+2023-03-22T10:12:16.4174676Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar
+2023-03-22T10:12:16.4867210Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar (37 kB at 23 kB/s)
+2023-03-22T10:12:16.4868725Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.jar
+2023-03-22T10:12:16.5087992Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/classworlds/classworlds/1.1/classworlds-1.1.jar (38 kB at 23 kB/s)
+2023-03-22T10:12:16.5089701Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar
+2023-03-22T10:12:16.5534678Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar (87 kB at 53 kB/s)
+2023-03-22T10:12:16.5536104Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/junit/junit/3.8.1/junit-3.8.1.jar
+2023-03-22T10:12:16.6754339Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar (49 kB at 27 kB/s)
+2023-03-22T10:12:16.6759104Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.jar
+2023-03-22T10:12:16.9023951Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.jar (10 kB at 5.1 kB/s)
+2023-03-22T10:12:16.9033211Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.jar
+2023-03-22T10:12:16.9393154Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar (194 kB at 95 kB/s)
+2023-03-22T10:12:16.9395245Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.jar
+2023-03-22T10:12:16.9569395Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/junit/junit/3.8.1/junit-3.8.1.jar (121 kB at 59 kB/s)
+2023-03-22T10:12:16.9570887Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.jar
+2023-03-22T10:12:16.9735228Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar (86 kB at 41 kB/s)
+2023-03-22T10:12:17.2592976Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.jar (223 kB at 94 kB/s)
+2023-03-22T10:12:17.3081063Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.jar (43 kB at 18 kB/s)
+2023-03-22T10:12:17.3455831Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.jar (6.8 kB at 2.8 kB/s)
+2023-03-22T10:12:17.3547638Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.jar (61 kB at 25 kB/s)
+2023-03-22T10:12:17.4192534Z [INFO] Using 'UTF-8' encoding to copy filtered resources.
+2023-03-22T10:12:17.4219304Z [INFO] Copying 2 resources
+2023-03-22T10:12:17.4271623Z [INFO] 
+2023-03-22T10:12:17.4275504Z [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ bank ---
+2023-03-22T10:12:17.4311154Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom
+2023-03-22T10:12:17.8620984Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom (1.5 kB at 3.5 kB/s)
+2023-03-22T10:12:17.8643180Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven/2.0.9/maven-2.0.9.pom
+2023-03-22T10:12:18.2818193Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven/2.0.9/maven-2.0.9.pom (19 kB at 45 kB/s)
+2023-03-22T10:12:18.2836539Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/8/maven-parent-8.pom
+2023-03-22T10:12:18.6810478Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/8/maven-parent-8.pom (24 kB at 61 kB/s)
+2023-03-22T10:12:18.6829532Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/apache/4/apache-4.pom
+2023-03-22T10:12:19.0994787Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/apache/4/apache-4.pom (4.5 kB at 11 kB/s)
+2023-03-22T10:12:19.1037154Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.pom
+2023-03-22T10:12:19.5288875Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.pom (1.6 kB at 3.8 kB/s)
+2023-03-22T10:12:19.5332071Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.pom
+2023-03-22T10:12:19.9559595Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.pom (2.3 kB at 5.4 kB/s)
+2023-03-22T10:12:19.9587247Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.pom
+2023-03-22T10:12:20.3716859Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.pom (7.8 kB at 19 kB/s)
+2023-03-22T10:12:20.3783281Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.pom
+2023-03-22T10:12:20.7797358Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.pom (2.1 kB at 5.2 kB/s)
+2023-03-22T10:12:20.7847802Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.pom
+2023-03-22T10:12:21.2072868Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.pom (3.1 kB at 7.4 kB/s)
+2023-03-22T10:12:21.2112615Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.pom
+2023-03-22T10:12:21.5911817Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.pom (2.0 kB at 5.2 kB/s)
+2023-03-22T10:12:21.5956528Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.pom
+2023-03-22T10:12:22.0275974Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.pom (2.0 kB at 4.7 kB/s)
+2023-03-22T10:12:22.0338696Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.pom
+2023-03-22T10:12:22.4395343Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.pom (1.9 kB at 4.7 kB/s)
+2023-03-22T10:12:22.4428666Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.pom
+2023-03-22T10:12:22.8471884Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.pom (1.7 kB at 4.3 kB/s)
+2023-03-22T10:12:22.8521174Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.pom
+2023-03-22T10:12:23.2573096Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.pom (2.7 kB at 6.7 kB/s)
+2023-03-22T10:12:23.2616061Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.pom
+2023-03-22T10:12:23.6579444Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.pom (2.7 kB at 6.8 kB/s)
+2023-03-22T10:12:23.6623114Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.pom
+2023-03-22T10:12:24.0590983Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.pom (2.0 kB at 5.0 kB/s)
+2023-03-22T10:12:24.0622360Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.pom
+2023-03-22T10:12:24.4585840Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.pom (2.1 kB at 5.2 kB/s)
+2023-03-22T10:12:24.4617522Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.pom
+2023-03-22T10:12:24.8837034Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.pom (1.3 kB at 3.0 kB/s)
+2023-03-22T10:12:24.8995472Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.pom
+2023-03-22T10:12:25.3247593Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.pom (3.4 kB at 8.1 kB/s)
+2023-03-22T10:12:25.3295626Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.pom
+2023-03-22T10:12:25.7546829Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.pom (4.0 kB at 9.5 kB/s)
+2023-03-22T10:12:25.7565176Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-shared-components/18/maven-shared-components-18.pom
+2023-03-22T10:12:26.1631483Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-shared-components/18/maven-shared-components-18.pom (4.9 kB at 12 kB/s)
+2023-03-22T10:12:26.1660026Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom
+2023-03-22T10:12:26.5757976Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom (965 B at 2.4 kB/s)
+2023-03-22T10:12:26.5779637Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.pom
+2023-03-22T10:12:26.9857731Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.pom (4.7 kB at 12 kB/s)
+2023-03-22T10:12:26.9881971Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-shared-components/19/maven-shared-components-19.pom
+2023-03-22T10:12:27.3979999Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-shared-components/19/maven-shared-components-19.pom (6.4 kB at 16 kB/s)
+2023-03-22T10:12:27.4021988Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.pom
+2023-03-22T10:12:27.8224292Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.pom (1.5 kB at 3.5 kB/s)
+2023-03-22T10:12:27.8246593Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven/2.2.1/maven-2.2.1.pom
+2023-03-22T10:12:28.2460683Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven/2.2.1/maven-2.2.1.pom (22 kB at 53 kB/s)
+2023-03-22T10:12:28.2481981Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/11/maven-parent-11.pom
+2023-03-22T10:12:28.6571099Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/11/maven-parent-11.pom (32 kB at 79 kB/s)
+2023-03-22T10:12:28.6608328Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/apache/5/apache-5.pom
+2023-03-22T10:12:29.0617091Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/apache/5/apache-5.pom (4.1 kB at 10 kB/s)
+2023-03-22T10:12:29.0646233Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.pom
+2023-03-22T10:12:29.4642875Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.pom (12 kB at 29 kB/s)
+2023-03-22T10:12:29.4687979Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.pom
+2023-03-22T10:12:29.8871661Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.pom (2.2 kB at 5.2 kB/s)
+2023-03-22T10:12:29.8904354Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.pom
+2023-03-22T10:12:30.3213560Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.pom (3.2 kB at 7.6 kB/s)
+2023-03-22T10:12:30.3252436Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.pom
+2023-03-22T10:12:30.7442052Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.pom (889 B at 2.1 kB/s)
+2023-03-22T10:12:30.7471534Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.pom
+2023-03-22T10:12:31.1737794Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.pom (2.0 kB at 4.6 kB/s)
+2023-03-22T10:12:31.1766594Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.pom
+2023-03-22T10:12:31.5908454Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.pom (1.9 kB at 4.6 kB/s)
+2023-03-22T10:12:31.5933431Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-parent/1.5.6/slf4j-parent-1.5.6.pom
+2023-03-22T10:12:31.9909546Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-parent/1.5.6/slf4j-parent-1.5.6.pom (7.9 kB at 20 kB/s)
+2023-03-22T10:12:31.9943615Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.pom
+2023-03-22T10:12:32.4060519Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.pom (3.0 kB at 7.2 kB/s)
+2023-03-22T10:12:32.4094251Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.pom
+2023-03-22T10:12:32.8300183Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.pom (2.2 kB at 5.2 kB/s)
+2023-03-22T10:12:32.8326457Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.pom
+2023-03-22T10:12:33.2528125Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.pom (2.2 kB at 5.2 kB/s)
+2023-03-22T10:12:33.2556169Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.pom
+2023-03-22T10:12:33.6793130Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.pom (1.6 kB at 3.7 kB/s)
+2023-03-22T10:12:33.6871015Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.pom
+2023-03-22T10:12:34.1153529Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.pom (1.9 kB at 4.4 kB/s)
+2023-03-22T10:12:34.1219553Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.pom
+2023-03-22T10:12:34.5468823Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.pom (1.7 kB at 4.0 kB/s)
+2023-03-22T10:12:34.5496284Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.pom
+2023-03-22T10:12:34.9538006Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.pom (2.8 kB at 6.9 kB/s)
+2023-03-22T10:12:34.9567960Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.pom
+2023-03-22T10:12:35.3668588Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.pom (3.1 kB at 7.6 kB/s)
+2023-03-22T10:12:35.3702978Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.pom
+2023-03-22T10:12:35.7812116Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.pom (880 B at 2.1 kB/s)
+2023-03-22T10:12:35.7845237Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.pom
+2023-03-22T10:12:36.1817599Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.pom (1.9 kB at 4.9 kB/s)
+2023-03-22T10:12:36.1850394Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.pom
+2023-03-22T10:12:36.5757428Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.pom (2.1 kB at 5.3 kB/s)
+2023-03-22T10:12:36.5789302Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.pom
+2023-03-22T10:12:37.0042114Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.pom (1.3 kB at 3.0 kB/s)
+2023-03-22T10:12:37.0069201Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom
+2023-03-22T10:12:37.4471803Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom (3.0 kB at 6.7 kB/s)
+2023-03-22T10:12:37.4492394Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/spice/spice-parent/12/spice-parent-12.pom
+2023-03-22T10:12:37.8641294Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/spice/spice-parent/12/spice-parent-12.pom (6.8 kB at 16 kB/s)
+2023-03-22T10:12:37.8668504Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/forge/forge-parent/4/forge-parent-4.pom
+2023-03-22T10:12:38.2847695Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/forge/forge-parent/4/forge-parent-4.pom (8.4 kB at 20 kB/s)
+2023-03-22T10:12:38.2888969Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.5.5/plexus-utils-1.5.5.pom
+2023-03-22T10:12:38.7099106Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.5.5/plexus-utils-1.5.5.pom (5.1 kB at 12 kB/s)
+2023-03-22T10:12:38.7131580Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom
+2023-03-22T10:12:39.1194088Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom (2.1 kB at 5.1 kB/s)
+2023-03-22T10:12:39.1225407Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom
+2023-03-22T10:12:39.5474378Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom (815 B at 1.9 kB/s)
+2023-03-22T10:12:39.5498076Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom
+2023-03-22T10:12:39.9558976Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom (4.2 kB at 10 kB/s)
+2023-03-22T10:12:39.9573534Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom
+2023-03-22T10:12:40.3530859Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom (17 kB at 44 kB/s)
+2023-03-22T10:12:40.3560668Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.pom
+2023-03-22T10:12:40.7814205Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.pom (865 B at 2.0 kB/s)
+2023-03-22T10:12:40.7832166Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom
+2023-03-22T10:12:41.2048616Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom (3.6 kB at 8.6 kB/s)
+2023-03-22T10:12:41.2066237Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-components/1.3.1/plexus-components-1.3.1.pom
+2023-03-22T10:12:41.6266381Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-components/1.3.1/plexus-components-1.3.1.pom (3.1 kB at 7.3 kB/s)
+2023-03-22T10:12:41.6285827Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom
+2023-03-22T10:12:42.0519750Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom (20 kB at 48 kB/s)
+2023-03-22T10:12:42.0551627Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/spice/spice-parent/17/spice-parent-17.pom
+2023-03-22T10:12:42.4788180Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/spice/spice-parent/17/spice-parent-17.pom (6.8 kB at 16 kB/s)
+2023-03-22T10:12:42.4807075Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/forge/forge-parent/10/forge-parent-10.pom
+2023-03-22T10:12:42.9077212Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/forge/forge-parent/10/forge-parent-10.pom (14 kB at 32 kB/s)
+2023-03-22T10:12:42.9115342Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.pom
+2023-03-22T10:12:43.3312320Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.pom (3.1 kB at 7.5 kB/s)
+2023-03-22T10:12:43.3331774Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/3.2/plexus-3.2.pom
+2023-03-22T10:12:43.7590125Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/3.2/plexus-3.2.pom (19 kB at 44 kB/s)
+2023-03-22T10:12:43.7630230Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom
+2023-03-22T10:12:44.1640987Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom (690 B at 1.7 kB/s)
+2023-03-22T10:12:44.1691700Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.pom
+2023-03-22T10:12:44.5711078Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.pom (769 B at 1.9 kB/s)
+2023-03-22T10:12:44.5732122Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom
+2023-03-22T10:12:44.9929898Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom (1.2 kB at 3.0 kB/s)
+2023-03-22T10:12:44.9983351Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.pom
+2023-03-22T10:12:45.4232638Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.pom (2.8 kB at 6.5 kB/s)
+2023-03-22T10:12:45.4265661Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.pom
+2023-03-22T10:12:45.8476254Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.pom (2.3 kB at 5.4 kB/s)
+2023-03-22T10:12:45.8501474Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.pom
+2023-03-22T10:12:46.3292045Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.pom (4.0 kB at 8.4 kB/s)
+2023-03-22T10:12:46.3319389Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.pom
+2023-03-22T10:12:46.7508948Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.pom (2.8 kB at 6.7 kB/s)
+2023-03-22T10:12:46.7549908Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/xbean/xbean/3.4/xbean-3.4.pom
+2023-03-22T10:12:47.1752338Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/xbean/xbean/3.4/xbean-3.4.pom (19 kB at 44 kB/s)
+2023-03-22T10:12:47.1781036Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/log4j/log4j/1.2.12/log4j-1.2.12.pom
+2023-03-22T10:12:47.5953283Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/log4j/log4j/1.2.12/log4j-1.2.12.pom (145 B at 347 B/s)
+2023-03-22T10:12:47.5983636Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.pom
+2023-03-22T10:12:48.0200188Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.pom (5.3 kB at 13 kB/s)
+2023-03-22T10:12:48.0222334Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/google/collections/google-collections/1.0/google-collections-1.0.pom
+2023-03-22T10:12:48.4159355Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/google/collections/google-collections/1.0/google-collections-1.0.pom (2.5 kB at 6.3 kB/s)
+2023-03-22T10:12:48.4181262Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/google/google/1/google-1.pom
+2023-03-22T10:12:48.8384291Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/google/google/1/google-1.pom (1.6 kB at 3.7 kB/s)
+2023-03-22T10:12:48.8402383Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/junit/junit/3.8.2/junit-3.8.2.pom
+2023-03-22T10:12:49.2432233Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/junit/junit/3.8.2/junit-3.8.2.pom (747 B at 1.9 kB/s)
+2023-03-22T10:12:49.2493086Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.jar
+2023-03-22T10:12:49.2497156Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.jar
+2023-03-22T10:12:49.2502153Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.jar
+2023-03-22T10:12:49.2536755Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.jar
+2023-03-22T10:12:49.2573163Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.jar
+2023-03-22T10:12:49.6821522Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.jar (13 kB at 30 kB/s)
+2023-03-22T10:12:49.6827224Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.jar
+2023-03-22T10:12:50.0264986Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.jar (49 kB at 64 kB/s)
+2023-03-22T10:12:50.0274748Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.jar
+2023-03-22T10:12:50.0609260Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.jar (89 kB at 109 kB/s)
+2023-03-22T10:12:50.0611378Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.jar
+2023-03-22T10:12:50.0867168Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.jar (21 kB at 25 kB/s)
+2023-03-22T10:12:50.0869389Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.jar
+2023-03-22T10:12:50.1917787Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.jar (160 kB at 169 kB/s)
+2023-03-22T10:12:50.1919560Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.jar
+2023-03-22T10:12:50.3903866Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.jar (211 kB at 185 kB/s)
+2023-03-22T10:12:50.3908006Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.jar
+2023-03-22T10:12:50.7352462Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.jar (25 kB at 17 kB/s)
+2023-03-22T10:12:50.7354599Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.jar
+2023-03-22T10:12:50.7499721Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.jar (35 kB at 24 kB/s)
+2023-03-22T10:12:50.7501151Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.jar
+2023-03-22T10:12:50.8194977Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.jar (14 kB at 8.8 kB/s)
+2023-03-22T10:12:50.8198176Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.jar
+2023-03-22T10:12:50.8315410Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.jar (122 kB at 77 kB/s)
+2023-03-22T10:12:50.8316391Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.jar
+2023-03-22T10:12:50.8871231Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.jar (87 kB at 54 kB/s)
+2023-03-22T10:12:50.8873054Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.jar
+2023-03-22T10:12:51.1325401Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.jar (29 kB at 15 kB/s)
+2023-03-22T10:12:51.1326747Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.jar
+2023-03-22T10:12:51.1502382Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.jar (37 kB at 20 kB/s)
+2023-03-22T10:12:51.1504791Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+2023-03-22T10:12:51.2130440Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.jar (58 kB at 30 kB/s)
+2023-03-22T10:12:51.2134888Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar
+2023-03-22T10:12:51.2401192Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.jar (10 kB at 5.2 kB/s)
+2023-03-22T10:12:51.2410762Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+2023-03-22T10:12:51.2813888Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.jar (33 kB at 16 kB/s)
+2023-03-22T10:12:51.2815127Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.jar
+2023-03-22T10:12:51.5370938Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar (32 kB at 14 kB/s)
+2023-03-22T10:12:51.5372763Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.jar
+2023-03-22T10:12:51.6068798Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar (14 kB at 5.8 kB/s)
+2023-03-22T10:12:51.6070596Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.jar
+2023-03-22T10:12:51.6350346Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar (4.2 kB at 1.8 kB/s)
+2023-03-22T10:12:51.6359092Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar
+2023-03-22T10:12:51.6685482Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.jar (25 kB at 10 kB/s)
+2023-03-22T10:12:51.6686943Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.jar
+2023-03-22T10:12:51.6799626Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.jar (155 kB at 64 kB/s)
+2023-03-22T10:12:51.6810308Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar
+2023-03-22T10:12:51.9276658Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.jar (4.6 kB at 1.7 kB/s)
+2023-03-22T10:12:51.9278051Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/log4j/log4j/1.2.12/log4j-1.2.12.jar
+2023-03-22T10:12:51.9926261Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.jar (19 kB at 6.9 kB/s)
+2023-03-22T10:12:51.9931666Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar
+2023-03-22T10:12:52.0841812Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar (217 kB at 77 kB/s)
+2023-03-22T10:12:52.0843799Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/google/collections/google-collections/1.0/google-collections-1.0.jar
+2023-03-22T10:12:52.0984450Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.jar (46 kB at 16 kB/s)
+2023-03-22T10:12:52.0985417Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/junit/junit/3.8.2/junit-3.8.2.jar
+2023-03-22T10:12:52.1046854Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar (134 kB at 47 kB/s)
+2023-03-22T10:12:52.3802089Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar (45 kB at 14 kB/s)
+2023-03-22T10:12:52.6698191Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/google/collections/google-collections/1.0/google-collections-1.0.jar (640 kB at 187 kB/s)
+2023-03-22T10:12:52.6702249Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/log4j/log4j/1.2.12/log4j-1.2.12.jar (358 kB at 105 kB/s)
+2023-03-22T10:12:52.6795004Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/junit/junit/3.8.2/junit-3.8.2.jar (121 kB at 35 kB/s)
+2023-03-22T10:12:52.7500002Z [INFO] Changes detected - recompiling the module!
+2023-03-22T10:12:52.7557932Z [INFO] Compiling 10 source files to /home/runner/work/nexus-test/nexus-test/target/classes
+2023-03-22T10:12:53.5039784Z [INFO] 
+2023-03-22T10:12:53.5043753Z [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ bank ---
+2023-03-22T10:12:53.5320380Z [INFO] Using 'UTF-8' encoding to copy filtered resources.
+2023-03-22T10:12:53.5321350Z [INFO] skip non existing resourceDirectory /home/runner/work/nexus-test/nexus-test/src/test/resources
+2023-03-22T10:12:53.5322060Z [INFO] 
+2023-03-22T10:12:53.5323279Z [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ bank ---
+2023-03-22T10:12:53.5454370Z [INFO] Changes detected - recompiling the module!
+2023-03-22T10:12:53.5460841Z [INFO] Compiling 5 source files to /home/runner/work/nexus-test/nexus-test/target/test-classes
+2023-03-22T10:12:54.2611903Z [WARNING] /home/runner/work/nexus-test/nexus-test/src/test/java/dk/hindsholm/bank/AccountExposureIT.java: /home/runner/work/nexus-test/nexus-test/src/test/java/dk/hindsholm/bank/AccountExposureIT.java uses unchecked or unsafe operations.
+2023-03-22T10:12:54.2613230Z [WARNING] /home/runner/work/nexus-test/nexus-test/src/test/java/dk/hindsholm/bank/AccountExposureIT.java: Recompile with -Xlint:unchecked for details.
+2023-03-22T10:12:54.2613815Z [INFO] 
+2023-03-22T10:12:54.2614366Z [INFO] --- jaxrs-analyzer-maven-plugin:0.17:analyze-jaxrs (default) @ bank ---
+2023-03-22T10:12:54.2638364Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/sebastian-daschner/jaxrs-analyzer/0.17/jaxrs-analyzer-0.17.pom
+2023-03-22T10:12:54.7545058Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/sebastian-daschner/jaxrs-analyzer/0.17/jaxrs-analyzer-0.17.pom (5.2 kB at 11 kB/s)
+2023-03-22T10:12:54.7586199Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/eclipse/aether/aether-api/1.0.2.v20150114/aether-api-1.0.2.v20150114.pom
+2023-03-22T10:12:55.1673505Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/eclipse/aether/aether-api/1.0.2.v20150114/aether-api-1.0.2.v20150114.pom (1.8 kB at 4.5 kB/s)
+2023-03-22T10:12:55.1694905Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/eclipse/aether/aether/1.0.2.v20150114/aether-1.0.2.v20150114.pom
+2023-03-22T10:12:55.7787529Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/eclipse/aether/aether/1.0.2.v20150114/aether-1.0.2.v20150114.pom (29 kB at 48 kB/s)
+2023-03-22T10:12:55.7829045Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/sebastian-daschner/jaxrs-analyzer/0.17/jaxrs-analyzer-0.17.jar
+2023-03-22T10:12:55.7830784Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/eclipse/aether/aether-api/1.0.2.v20150114/aether-api-1.0.2.v20150114.jar
+2023-03-22T10:12:55.7839546Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.jar
+2023-03-22T10:12:56.6923797Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/eclipse/aether/aether-api/1.0.2.v20150114/aether-api-1.0.2.v20150114.jar (136 kB at 150 kB/s)
+2023-03-22T10:12:56.7164934Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.jar (169 kB at 180 kB/s)
+2023-03-22T10:12:57.3210691Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/sebastian-daschner/jaxrs-analyzer/0.17/jaxrs-analyzer-0.17.jar (4.1 MB at 2.7 MB/s)
+2023-03-22T10:12:57.3757877Z [INFO] analyzing JAX-RS resources, using Swagger backend
+2023-03-22T10:12:57.3887993Z [INFO] Generating resources at /home/runner/work/nexus-test/nexus-test/target/jaxrs-analyzer/swagger.json
+2023-03-22T10:12:58.2503603Z [INFO] 
+2023-03-22T10:12:58.2504469Z [INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ bank ---
+2023-03-22T10:12:58.2584716Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.pom
+2023-03-22T10:12:58.6922436Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.pom (11 kB at 26 kB/s)
+2023-03-22T10:12:58.6966649Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5/maven-plugin-annotations-3.5.pom
+2023-03-22T10:12:59.1217973Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5/maven-plugin-annotations-3.5.pom (1.7 kB at 3.9 kB/s)
+2023-03-22T10:12:59.1241898Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugin-tools/maven-plugin-tools/3.5/maven-plugin-tools-3.5.pom
+2023-03-22T10:12:59.5508657Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugin-tools/maven-plugin-tools/3.5/maven-plugin-tools-3.5.pom (16 kB at 38 kB/s)
+2023-03-22T10:12:59.5542094Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/30/maven-parent-30.pom
+2023-03-22T10:12:59.9994067Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/30/maven-parent-30.pom (41 kB at 93 kB/s)
+2023-03-22T10:13:00.0019241Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/apache/18/apache-18.pom
+2023-03-22T10:13:00.4036268Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/apache/18/apache-18.pom (16 kB at 39 kB/s)
+2023-03-22T10:13:00.4069213Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire-api/2.22.0/surefire-api-2.22.0.pom
+2023-03-22T10:13:00.8328572Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire-api/2.22.0/surefire-api-2.22.0.pom (3.5 kB at 8.3 kB/s)
+2023-03-22T10:13:00.8383683Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.pom
+2023-03-22T10:13:01.2779258Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.pom (2.0 kB at 4.5 kB/s)
+2023-03-22T10:13:01.2829260Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire-booter/2.22.0/surefire-booter-2.22.0.pom
+2023-03-22T10:13:01.7075621Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire-booter/2.22.0/surefire-booter-2.22.0.pom (7.4 kB at 17 kB/s)
+2023-03-22T10:13:01.7152273Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.pom
+2023-03-22T10:13:02.1445857Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.pom (2.4 kB at 5.5 kB/s)
+2023-03-22T10:13:02.1463216Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-shared-components/15/maven-shared-components-15.pom
+2023-03-22T10:13:02.5565223Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-shared-components/15/maven-shared-components-15.pom (9.3 kB at 23 kB/s)
+2023-03-22T10:13:02.5586550Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/16/maven-parent-16.pom
+2023-03-22T10:13:02.9885174Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/16/maven-parent-16.pom (23 kB at 54 kB/s)
+2023-03-22T10:13:02.9904738Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/apache/7/apache-7.pom
+2023-03-22T10:13:03.3999759Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/apache/7/apache-7.pom (14 kB at 35 kB/s)
+2023-03-22T10:13:03.4049246Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.pom
+2023-03-22T10:13:03.8155085Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.pom (3.3 kB at 8.1 kB/s)
+2023-03-22T10:13:03.8193716Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-java/0.9.8/plexus-java-0.9.8.pom
+2023-03-22T10:13:04.2586032Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-java/0.9.8/plexus-java-0.9.8.pom (2.4 kB at 5.4 kB/s)
+2023-03-22T10:13:04.2600196Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-languages/0.9.8/plexus-languages-0.9.8.pom
+2023-03-22T10:13:04.6689234Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-languages/0.9.8/plexus-languages-0.9.8.pom (2.2 kB at 5.4 kB/s)
+2023-03-22T10:13:04.6706878Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/4.0/plexus-4.0.pom
+2023-03-22T10:13:05.1005244Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/4.0/plexus-4.0.pom (22 kB at 50 kB/s)
+2023-03-22T10:13:05.1036052Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom
+2023-03-22T10:13:05.5128800Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom (2.9 kB at 7.2 kB/s)
+2023-03-22T10:13:05.5157726Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/ow2/ow2/1.5/ow2-1.5.pom
+2023-03-22T10:13:05.9375912Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/ow2/ow2/1.5/ow2-1.5.pom (11 kB at 27 kB/s)
+2023-03-22T10:13:05.9434530Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/thoughtworks/qdox/qdox/2.0-M7/qdox-2.0-M7.pom
+2023-03-22T10:13:06.3531957Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/thoughtworks/qdox/qdox/2.0-M7/qdox-2.0-M7.pom (16 kB at 38 kB/s)
+2023-03-22T10:13:06.3574632Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+2023-03-22T10:13:06.7868937Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/oss/oss-parent/9/oss-parent-9.pom (6.6 kB at 15 kB/s)
+2023-03-22T10:13:06.7951817Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.jar
+2023-03-22T10:13:06.7963410Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar
+2023-03-22T10:13:06.7967908Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5/maven-plugin-annotations-3.5.jar
+2023-03-22T10:13:06.7982237Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire-api/2.22.0/surefire-api-2.22.0.jar
+2023-03-22T10:13:06.8010357Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.jar
+2023-03-22T10:13:07.2520651Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar (12 kB at 27 kB/s)
+2023-03-22T10:13:07.2521965Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire-booter/2.22.0/surefire-booter-2.22.0.jar
+2023-03-22T10:13:07.3754854Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5/maven-plugin-annotations-3.5.jar (14 kB at 25 kB/s)
+2023-03-22T10:13:07.3756724Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar
+2023-03-22T10:13:07.3995760Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.jar (13 kB at 22 kB/s)
+2023-03-22T10:13:07.3997257Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar
+2023-03-22T10:13:07.4236299Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.jar (524 kB at 833 kB/s)
+2023-03-22T10:13:07.4237743Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar
+2023-03-22T10:13:07.7153292Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire-api/2.22.0/surefire-api-2.22.0.jar (186 kB at 202 kB/s)
+2023-03-22T10:13:07.7154920Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar
+2023-03-22T10:13:07.8355888Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar (39 kB at 38 kB/s)
+2023-03-22T10:13:07.8357444Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar
+2023-03-22T10:13:07.9446964Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar (80 kB at 70 kB/s)
+2023-03-22T10:13:07.9451063Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar
+2023-03-22T10:13:08.1407393Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar (156 kB at 116 kB/s)
+2023-03-22T10:13:08.1408494Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar
+2023-03-22T10:13:08.1409703Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire-booter/2.22.0/surefire-booter-2.22.0.jar (273 kB at 204 kB/s)
+2023-03-22T10:13:08.1410908Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar
+2023-03-22T10:13:08.2361580Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar (49 kB at 34 kB/s)
+2023-03-22T10:13:08.2364551Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar
+2023-03-22T10:13:08.2827744Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar (228 kB at 154 kB/s)
+2023-03-22T10:13:08.2830290Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar
+2023-03-22T10:13:08.3778380Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar (35 kB at 22 kB/s)
+2023-03-22T10:13:08.3779826Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar
+2023-03-22T10:13:08.5528217Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar (68 kB at 39 kB/s)
+2023-03-22T10:13:08.5529701Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.jar
+2023-03-22T10:13:08.6219720Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar (30 kB at 16 kB/s)
+2023-03-22T10:13:08.6221747Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.jar
+2023-03-22T10:13:08.6705333Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar (51 kB at 27 kB/s)
+2023-03-22T10:13:08.6706991Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.jar
+2023-03-22T10:13:08.6982251Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar (332 kB at 175 kB/s)
+2023-03-22T10:13:08.6983756Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar
+2023-03-22T10:13:08.7788456Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar (88 kB at 44 kB/s)
+2023-03-22T10:13:08.7789816Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar
+2023-03-22T10:13:08.9625034Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.jar (178 kB at 82 kB/s)
+2023-03-22T10:13:08.9626536Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar
+2023-03-22T10:13:09.0099510Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.jar (22 kB at 10 kB/s)
+2023-03-22T10:13:09.0101426Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar
+2023-03-22T10:13:09.0540857Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.jar (8.8 kB at 3.9 kB/s)
+2023-03-22T10:13:09.0541862Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar
+2023-03-22T10:13:09.0908218Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar (22 kB at 9.7 kB/s)
+2023-03-22T10:13:09.0910687Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.jar
+2023-03-22T10:13:09.1633643Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar (17 kB at 7.1 kB/s)
+2023-03-22T10:13:09.1635233Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar
+2023-03-22T10:13:09.3477558Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar (11 kB at 4.3 kB/s)
+2023-03-22T10:13:09.3479354Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+2023-03-22T10:13:09.4036830Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar (26 kB at 9.8 kB/s)
+2023-03-22T10:13:09.4038282Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar
+2023-03-22T10:13:09.4304200Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar (13 kB at 4.9 kB/s)
+2023-03-22T10:13:09.4307667Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-java/0.9.8/plexus-java-0.9.8.jar
+2023-03-22T10:13:09.4833624Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.jar (10 kB at 3.9 kB/s)
+2023-03-22T10:13:09.4834677Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar
+2023-03-22T10:13:09.5589074Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar (29 kB at 10 kB/s)
+2023-03-22T10:13:09.5590615Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/thoughtworks/qdox/qdox/2.0-M7/qdox-2.0-M7.jar
+2023-03-22T10:13:09.7390391Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar (13 kB at 4.6 kB/s)
+2023-03-22T10:13:09.7966123Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar (38 kB at 13 kB/s)
+2023-03-22T10:13:09.8162157Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-java/0.9.8/plexus-java-0.9.8.jar (35 kB at 12 kB/s)
+2023-03-22T10:13:09.8838671Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar (108 kB at 35 kB/s)
+2023-03-22T10:13:10.1455632Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/thoughtworks/qdox/qdox/2.0-M7/qdox-2.0-M7.jar (315 kB at 94 kB/s)
+2023-03-22T10:13:10.2727787Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire-junit-platform/2.22.0/surefire-junit-platform-2.22.0.pom
+2023-03-22T10:13:10.6826678Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire-junit-platform/2.22.0/surefire-junit-platform-2.22.0.pom (7.0 kB at 17 kB/s)
+2023-03-22T10:13:10.6846403Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire-providers/2.22.0/surefire-providers-2.22.0.pom
+2023-03-22T10:13:11.1121255Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire-providers/2.22.0/surefire-providers-2.22.0.pom (2.5 kB at 5.8 kB/s)
+2023-03-22T10:13:11.1243594Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-launcher/1.2.0/junit-platform-launcher-1.2.0.pom
+2023-03-22T10:13:11.5626316Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-launcher/1.2.0/junit-platform-launcher-1.2.0.pom (2.2 kB at 5.1 kB/s)
+2023-03-22T10:13:11.5660723Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-engine/1.2.0/junit-platform-engine-1.2.0.pom
+2023-03-22T10:13:11.9886744Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-engine/1.2.0/junit-platform-engine-1.2.0.pom (2.4 kB at 5.7 kB/s)
+2023-03-22T10:13:11.9912756Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.pom
+2023-03-22T10:13:12.4004998Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.pom (2.0 kB at 4.9 kB/s)
+2023-03-22T10:13:12.4030408Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/opentest4j/opentest4j/1.1.0/opentest4j-1.1.0.pom
+2023-03-22T10:13:12.8344046Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/opentest4j/opentest4j/1.1.0/opentest4j-1.1.0.pom (1.7 kB at 3.9 kB/s)
+2023-03-22T10:13:12.8761046Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire-junit-platform/2.22.0/surefire-junit-platform-2.22.0.jar
+2023-03-22T10:13:12.8779191Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-engine/1.2.0/junit-platform-engine-1.2.0.jar
+2023-03-22T10:13:12.8794287Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar
+2023-03-22T10:13:12.8796561Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/opentest4j/opentest4j/1.1.0/opentest4j-1.1.0.jar
+2023-03-22T10:13:12.8799364Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-launcher/1.2.0/junit-platform-launcher-1.2.0.jar
+2023-03-22T10:13:13.2955042Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/opentest4j/opentest4j/1.1.0/opentest4j-1.1.0.jar (6.8 kB at 16 kB/s)
+2023-03-22T10:13:13.3438268Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/surefire/surefire-junit-platform/2.22.0/surefire-junit-platform-2.22.0.jar (66 kB at 141 kB/s)
+2023-03-22T10:13:13.6262885Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar (78 kB at 105 kB/s)
+2023-03-22T10:13:13.6493573Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-launcher/1.2.0/junit-platform-launcher-1.2.0.jar (80 kB at 104 kB/s)
+2023-03-22T10:13:13.6519197Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/junit/platform/junit-platform-engine/1.2.0/junit-platform-engine-1.2.0.jar (90 kB at 116 kB/s)
+2023-03-22T10:13:13.6660296Z [INFO] 
+2023-03-22T10:13:13.6661042Z [INFO] -------------------------------------------------------
+2023-03-22T10:13:13.6661454Z [INFO]  T E S T S
+2023-03-22T10:13:13.6661936Z [INFO] -------------------------------------------------------
+2023-03-22T10:13:14.1829393Z [INFO] Running dk.hindsholm.bank.boundary.AccountResourceTest
+2023-03-22T10:13:14.7738353Z [INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.571 s - in dk.hindsholm.bank.boundary.AccountResourceTest
+2023-03-22T10:13:14.7740581Z [INFO] Running dk.hindsholm.bank.boundary.TransactionResourceTest
+2023-03-22T10:13:14.8503903Z [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 s - in dk.hindsholm.bank.boundary.TransactionResourceTest
+2023-03-22T10:13:14.8520608Z [INFO] Running dk.hindsholm.bank.entity.AccountTest
+2023-03-22T10:13:14.8521627Z [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in dk.hindsholm.bank.entity.AccountTest
+2023-03-22T10:13:15.1802374Z [INFO] 
+2023-03-22T10:13:15.1804119Z [INFO] Results:
+2023-03-22T10:13:15.1804798Z [INFO] 
+2023-03-22T10:13:15.1806167Z [INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+2023-03-22T10:13:15.1806623Z [INFO] 
+2023-03-22T10:13:15.1875849Z [INFO] 
+2023-03-22T10:13:15.1876863Z [INFO] --- maven-war-plugin:2.2:war (default-war) @ bank ---
+2023-03-22T10:13:15.1925369Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom
+2023-03-22T10:13:15.6145805Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom (4.5 kB at 11 kB/s)
+2023-03-22T10:13:15.6224088Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.pom
+2023-03-22T10:13:16.0453921Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.pom (2.8 kB at 6.6 kB/s)
+2023-03-22T10:13:16.0476680Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom
+2023-03-22T10:13:16.4607037Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom (4.1 kB at 9.8 kB/s)
+2023-03-22T10:13:16.4629658Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/spice/spice-parent/16/spice-parent-16.pom
+2023-03-22T10:13:16.8704247Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/spice/spice-parent/16/spice-parent-16.pom (8.4 kB at 20 kB/s)
+2023-03-22T10:13:16.8720166Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/forge/forge-parent/5/forge-parent-5.pom
+2023-03-22T10:13:17.3012429Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/sonatype/forge/forge-parent/5/forge-parent-5.pom (8.4 kB at 19 kB/s)
+2023-03-22T10:13:17.3047008Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.pom
+2023-03-22T10:13:17.7267441Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.pom (1.7 kB at 4.1 kB/s)
+2023-03-22T10:13:17.7288241Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-components/1.1.19/plexus-components-1.1.19.pom
+2023-03-22T10:13:18.1336750Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-components/1.1.19/plexus-components-1.1.19.pom (2.7 kB at 6.7 kB/s)
+2023-03-22T10:13:18.1352310Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/3.0.1/plexus-3.0.1.pom
+2023-03-22T10:13:18.5499122Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/3.0.1/plexus-3.0.1.pom (19 kB at 45 kB/s)
+2023-03-22T10:13:18.5545198Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.pom
+2023-03-22T10:13:18.9825315Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.pom (1.0 kB at 2.4 kB/s)
+2023-03-22T10:13:18.9869498Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.pom
+2023-03-22T10:13:19.4154179Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.pom (11 kB at 27 kB/s)
+2023-03-22T10:13:19.4171277Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/thoughtworks/xstream/xstream-parent/1.3.1/xstream-parent-1.3.1.pom
+2023-03-22T10:13:19.8415126Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/thoughtworks/xstream/xstream-parent/1.3.1/xstream-parent-1.3.1.pom (14 kB at 33 kB/s)
+2023-03-22T10:13:19.8440233Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.pom
+2023-03-22T10:13:20.2706450Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.pom (1.6 kB at 3.8 kB/s)
+2023-03-22T10:13:20.2728997Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.pom
+2023-03-22T10:13:20.6911329Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.pom (4.0 kB at 9.6 kB/s)
+2023-03-22T10:13:20.6925290Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom
+2023-03-22T10:13:21.1185774Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom (8.4 kB at 20 kB/s)
+2023-03-22T10:13:21.1206580Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/9/maven-parent-9.pom
+2023-03-22T10:13:21.5459379Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-parent/9/maven-parent-9.pom (33 kB at 77 kB/s)
+2023-03-22T10:13:21.5494706Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom
+2023-03-22T10:13:21.9736720Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom (5.3 kB at 13 kB/s)
+2023-03-22T10:13:21.9759296Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom
+2023-03-22T10:13:22.4496190Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom (9.8 kB at 21 kB/s)
+2023-03-22T10:13:22.4520768Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.6/plexus-interpolation-1.6.pom
+2023-03-22T10:13:22.8952906Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.6/plexus-interpolation-1.6.pom (2.9 kB at 6.6 kB/s)
+2023-03-22T10:13:22.9003564Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar
+2023-03-22T10:13:22.9110471Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar
+2023-03-22T10:13:22.9118867Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar
+2023-03-22T10:13:22.9129386Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.jar
+2023-03-22T10:13:22.9199770Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar
+2023-03-22T10:13:23.3464480Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar (22 kB at 49 kB/s)
+2023-03-22T10:13:23.3466487Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar
+2023-03-22T10:13:23.6703950Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.jar (60 kB at 80 kB/s)
+2023-03-22T10:13:23.6705959Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
+2023-03-22T10:13:23.6885480Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar (58 kB at 74 kB/s)
+2023-03-22T10:13:23.6888892Z [INFO] Downloading from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.jar
+2023-03-22T10:13:23.7556344Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar (25 kB at 30 kB/s)
+2023-03-22T10:13:23.7896812Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar (184 kB at 207 kB/s)
+2023-03-22T10:13:24.0066276Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar (431 kB at 394 kB/s)
+2023-03-22T10:13:24.1079029Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.jar (33 kB at 28 kB/s)
+2023-03-22T10:13:24.2464423Z [INFO] Downloaded from local: https://7776-185-15-74-210.eu.ngrok.io/repository/maven-public/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar (226 kB at 170 kB/s)
+2023-03-22T10:13:24.4050276Z [INFO] Packaging webapp
+2023-03-22T10:13:24.4064926Z [INFO] Assembling webapp [bank] in [/home/runner/work/nexus-test/nexus-test/target/bank]
+2023-03-22T10:13:24.4126198Z [INFO] Processing war project
+2023-03-22T10:13:24.4131645Z [INFO] Copying webapp resources [/home/runner/work/nexus-test/nexus-test/src/main/webapp]
+2023-03-22T10:13:24.4315418Z [INFO] Webapp assembled in [25 msecs]
+2023-03-22T10:13:24.4499168Z [INFO] Building war: /home/runner/work/nexus-test/nexus-test/target/bank.war
+2023-03-22T10:13:24.4684117Z [INFO] ------------------------------------------------------------------------
+2023-03-22T10:13:24.4688716Z [INFO] BUILD SUCCESS
+2023-03-22T10:13:24.4692007Z [INFO] ------------------------------------------------------------------------
+2023-03-22T10:13:24.4697919Z [INFO] Total time:  02:27 min
+2023-03-22T10:13:24.4702739Z [INFO] Finished at: 2023-03-22T10:13:24Z
+2023-03-22T10:13:24.4706088Z [INFO] ------------------------------------------------------------------------
