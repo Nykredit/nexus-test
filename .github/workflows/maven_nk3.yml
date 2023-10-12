@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: NK Maven via notfound.dk
+name: NK Maven via Azure AD
 
 on:
   workflow_dispatch:
@@ -47,7 +47,7 @@ jobs:
             {
               "id": "nykredit",
               "mirrorOf": "*",
-              "url": "https://maven.elements.notfound.dk"
+              "url": "https://ext-maven.tools.nykredit.it"
             }
           ]
         servers: >
