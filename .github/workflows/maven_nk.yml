@@ -58,9 +58,12 @@ jobs:
               "password": "${{ secrets.mvn_password }}"
             }
           ]
+    
+    - name: Maven version
+      run: mvn -v
 
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn -Daether.dependencyCollector.impl=bf -B package --file pom.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
 #    - name: Update dependency graph
