@@ -51,7 +51,7 @@ jobs:
             {
               "id": "nykredit",
               "mirrorOf": "*",
-              "url": "https://mavenbuild.tools.nykredit.it"
+              "url": "https://mavenbuild.tools.nykredit.it:10443"
             }
           ]
         servers: >
