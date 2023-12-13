@@ -25,6 +25,10 @@ jobs:
       id: ip
       uses: haythem/public-ip@v1.3
 
+    - name: Add fake host to /etc/hosts
+      run: | 
+        sudo echo "185.233.253.203 mavenbuild.tools.nykredit.it" | sudo tee -a /etc/hosts
+
     - name: Print Public IP
       run: |
         echo ${{ steps.ip.outputs.ipv4 }}
