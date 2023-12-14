@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: NK Maven through SOCAT https://maven.tools.nykredit.it 
+name: NK Maven through SOCAT https://mavenbuild.tools.nykredit.it (port 80)
 
 on:
   workflow_dispatch:
@@ -27,7 +27,7 @@ jobs:
 
     - name: Add fake host to /etc/hosts
       run: | 
-        sudo echo "185.233.253.203 maven.tools.nykredit.it" | sudo tee -a /etc/hosts
+        sudo echo "185.233.253.203 mavenbuild.tools.nykredit.it" | sudo tee -a /etc/hosts
 
     - name: Print Public IP
       run: |
@@ -51,7 +51,7 @@ jobs:
             {
               "id": "nykredit",
               "mirrorOf": "*",
-              "url": "https://maven.tools.nykredit.it:10443"
+              "url": "https://mavenbuild.tools.nykredit.it:80"
             }
           ]
         servers: >
