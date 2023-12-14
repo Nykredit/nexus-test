@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: NK Maven through SOCAT https://mavenbuild.tools.nykredit.it (port 80)
+name: NK Maven through SOCAT https://mavenbuild.tools.nykredit.it
 
 on:
   workflow_dispatch:
