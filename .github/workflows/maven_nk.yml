@@ -63,7 +63,7 @@ jobs:
       run: mvn -v
 
     - name: Build with Maven
-      run: mvn -Daether.dependencyCollector.impl=bf -B package --file pom.xml
+      run: mvn -Daether.dependencyCollector.impl=bf -B package --file pom.xml -Dmaven.wagon.http.ssl.insecure=true
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
 #    - name: Update dependency graph
