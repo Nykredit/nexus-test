@@ -1,0 +1,58 @@
+# This workflow will build a Java project with Maven, and cache/restore any dependencies to improve the workflow execution time
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-maven
+
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+name: NK Maven on new Nexus server
+
+on:
+  workflow_dispatch:
+    inputs:
+      test:
+        description: Dummy test var
+        required: false
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Public IP
+      id: ip
+      uses: haythem/public-ip@v1.3
+
+    - name: Print Public IP
+      run: |
+        echo ${{ steps.ip.outputs.ipv4 }}
+        echo ${{ steps.ip.outputs.ipv6 }}
+
+    - uses: actions/checkout@v3
+
+    - name: Set up JDK 8
+      uses: actions/setup-java@v3
+      with:
+        java-version: '8'
+        distribution: 'temurin'
+        # cache: maven
+
+    - name: maven-settings-xml-action
+      uses: whelk-io/maven-settings-xml-action@v20
+      with:
+        mirrors: >
+          [
+            {
+              "id": "nykredit",
+              "mirrorOf": "*",
+              "url": "https://mavenbuild.tools.nykredit.it/repository/maven-central"
+            }
+          ]
+    
+    - name: Maven version
+      run: mvn -v
+
+    - name: Build with Maven
+      run: mvn -B package --file pom.xml
