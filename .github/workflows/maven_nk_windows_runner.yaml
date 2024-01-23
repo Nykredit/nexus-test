@@ -1,0 +1,62 @@
+name: NK Maven on Nykredit GitHub runner (Windows)
+
+on:
+  workflow_dispatch:
+    inputs:
+      test:
+        description: Dummy test var
+        required: false
+
+jobs:
+  build:
+
+    runs-on: self-hosted
+
+    steps:
+    - name: Public IP
+      id: ip
+      uses: haythem/public-ip@v1.3
+
+    - name: Print Public IP
+      run: |
+        echo ${{ steps.ip.outputs.ipv4 }}
+        echo ${{ steps.ip.outputs.ipv6 }}
+
+    - uses: actions/checkout@v3
+
+    - name: Set up JDK 8
+      uses: actions/setup-java@v3
+      with:
+        java-version: '8'
+        distribution: 'temurin'
+        # cache: maven
+
+    - name: maven-settings-xml-action
+      uses: whelk-io/maven-settings-xml-action@v20
+      with:
+        mirrors: >
+          [
+            {
+              "id": "nykredit",
+              "mirrorOf": "*",
+              "url": "https://maven.tools.nykredit.it"
+            }
+          ]
+        servers: >
+          [
+            {
+              "id": "nykredit",
+              "username": "${{ secrets.mvn_username }}",
+              "password": "${{ secrets.mvn_password }}"
+            }
+          ]
+    
+    - name: Maven version
+      run: mvn -v
+
+    - name: Build with Maven
+      run: mvn -Daether.dependencyCollector.impl=bf -B package --file pom.xml -Dmaven.wagon.http.ssl.insecure=true
+
+    # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
+#    - name: Update dependency graph
+#      uses: advanced-security/maven-dependency-submission-action@571e99aab1055c2e71a1e2309b9691de18d6b7d6
