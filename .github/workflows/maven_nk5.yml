@@ -54,14 +54,14 @@ jobs:
               "url": "https://mavenbuild.tools.nykredit.it:443"
             }
           ]
-        #servers: >
-        # [
-        #    {
-        #      "id": "nykredit",
-        #      "username": "${{ secrets.mvn_username }}",
-        #      "password": "${{ secrets.mvn_password }}"
-        #    }
-        #  ]
+        servers: >
+         [
+            {
+              "id": "nykredit",
+              "username": "${{ secrets.mvn_username }}",
+              "password": "${{ secrets.mvn_password }}"
+            }
+          ]
     
     - name: Maven version
       run: mvn -v
