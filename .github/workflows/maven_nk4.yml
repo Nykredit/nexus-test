@@ -32,11 +32,6 @@ jobs:
 
     - uses: actions/checkout@v3
 
-#    - name: Add fake host to /etc/hosts
-#      run: | 
-#        sudo echo "193.162.110.85 mavenbuild.tools.nykredit.it" | sudo tee -a /etc/hosts
-
-
     - name: Set up JDK 8
       uses: actions/setup-java@v3
       with:
@@ -52,7 +47,7 @@ jobs:
             {
               "id": "nykredit",
               "mirrorOf": "*",
-              "url": "http://mavenbuild.tools.nykredit.it"
+              "url": "http://mavenbuild.tools.nykredit.it/repository/public"
             }
           ]
         servers: >
