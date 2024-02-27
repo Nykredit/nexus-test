@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: NK Mavenbuild on test server
+name: NK Mavenbuild final version
 
 on:
   workflow_dispatch:
