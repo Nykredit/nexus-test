@@ -45,14 +45,14 @@ jobs:
               "url": "http://mavenbuild-test.tools.nykredit.it/repository/public"
             }
           ]
-#        servers: >
-#          [
-#            {
-#              "id": "nykredit",
-#              "username": "${{ secrets.mvn_username }}",
-#              "password": "${{ secrets.mvn_password }}"
-#            }
-#          ]
+        servers: >
+          [
+            {
+              "id": "nykredit",
+              "username": "${{ secrets.mvn_username }}",
+              "password": "${{ secrets.mvn_password }}"
+            }
+          ]
     
     - name: Maven version
       run: mvn -v
