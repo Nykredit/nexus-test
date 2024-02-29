@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: NK Mavenbuild final version
+name: NK build using mavenbuild-test.tools.nykredit.it
 
 on:
   workflow_dispatch:
