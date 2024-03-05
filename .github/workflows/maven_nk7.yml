@@ -42,7 +42,7 @@ jobs:
             {
               "id": "nykredit",
               "mirrorOf": "*",
-              "url": "https://mavenbuild.tools.nykredit.it/nexus/repository/public"
+              "url": "http://mavenbuild.tools.nykredit.it/nexus/repository/public"
             }
           ]
         servers: >
