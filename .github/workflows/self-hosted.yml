@@ -1,0 +1,53 @@
+name: NK Mavenbuild self-hosted
+
+on:
+  workflow_dispatch:
+    inputs:
+      test:
+        description: Dummy test var
+        required: false
+
+jobs:
+  build:
+
+    runs-on: [ self-hosted, linux ]
+
+    steps:
+    - name: Public IP
+      id: ip
+      uses: haythem/public-ip@v1.3
+
+    - uses: actions/checkout@v3
+
+    - name: Set up JDK 8
+      uses: actions/setup-java@v3
+      with:
+        java-version: '8'
+        distribution: 'temurin'
+        # cache: maven
+
+    - name: maven-settings-xml-action
+      uses: whelk-io/maven-settings-xml-action@v20
+      with:
+        mirrors: >
+          [
+            {
+              "id": "nykredit",
+              "mirrorOf": "*",
+              "url": "https://mavenbuild.tools.nykredit.it/nexus/repository/public"
+            }
+          ]
+        servers: >
+          [
+            {
+              "id": "nykredit",
+              "username": "${{ secrets.mvn_username }}",
+              "password": "${{ secrets.mvn_password }}"
+            }
+          ]
+    
+    - name: Maven version
+      run: mvn -v
+
+    - name: Build with Maven
+      run: mvn -Daether.dependencyCollector.impl=bf -B package --file pom.xml
